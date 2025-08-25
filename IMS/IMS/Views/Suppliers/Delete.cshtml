@@ -1,0 +1,18 @@
+﻿@model IMS.Models.Supplier
+@{
+    ViewData["Title"] = "Delete Supplier";
+}
+<h2>Delete Supplier</h2>
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>@Model.CompanyName</h4>
+    <p>Email: @Model.ContactEmail</p>
+    <p>Phone: @Model.ContactPhone</p>
+    <p>Address: @Model.Address</p>
+</div>
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="SupplierId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+

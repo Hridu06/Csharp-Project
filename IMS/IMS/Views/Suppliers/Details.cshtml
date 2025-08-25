@@ -1,0 +1,16 @@
+﻿@model IMS.Models.Supplier
+@{
+    ViewData["Title"] = "Supplier Details";
+}
+<h2>Supplier Details</h2>
+<div>
+    <h4>@Model.CompanyName</h4>
+    <p>Email: @Model.ContactEmail</p>
+    <p>Phone: @Model.ContactPhone</p>
+    <p>Address: @Model.Address</p>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.SupplierId" class="btn btn-primary">Edit</a> |
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>
+

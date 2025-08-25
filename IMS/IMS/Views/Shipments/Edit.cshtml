@@ -1,0 +1,35 @@
+﻿@model IMS.Models.Shipment
+
+@{
+    ViewData["Title"] = "Edit Shipment";
+}
+
+<h2>Edit Shipment</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="ShipmentId" />
+
+    <div class="form-group">
+        <label asp-for="SupplierId"></label>
+        <select asp-for="SupplierId" asp-items="ViewBag.SupplierId" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductId"></label>
+        <select asp-for="ProductId" asp-items="ViewBag.ProductId" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="WarehouseId"></label>
+        <select asp-for="WarehouseId" asp-items="ViewBag.WarehouseId" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ShipmentDate"></label>
+        <input asp-for="ShipmentDate" type="date" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

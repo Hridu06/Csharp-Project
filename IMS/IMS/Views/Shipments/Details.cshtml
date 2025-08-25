@@ -1,0 +1,32 @@
+﻿@model IMS.Models.Shipment
+
+@{
+    ViewData["Title"] = "Shipment Details";
+}
+
+<h2>Shipment Details</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Supplier</dt>
+        <dd class="col-sm-10">@Model.Supplier.CompanyName</dd>
+
+        <dt class="col-sm-2">Product</dt>
+        <dd class="col-sm-10">@Model.Product.Name</dd>
+
+        <dt class="col-sm-2">Warehouse</dt>
+        <dd class="col-sm-10">@Model.Warehouse.Name</dd>
+
+        <dt class="col-sm-2">Quantity</dt>
+        <dd class="col-sm-10">@Model.Quantity</dd>
+
+        <dt class="col-sm-2">Shipment Date</dt>
+        <dd class="col-sm-10">@Model.ShipmentDate.ToShortDateString()</dd>
+
+        <dt class="col-sm-2">Total Cost</dt>
+        <dd class="col-sm-10">@Model.TotalCost.ToString("C")</dd>
+    </dl>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.ShipmentId" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

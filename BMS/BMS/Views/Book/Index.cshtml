@@ -1,0 +1,41 @@
+﻿@model IEnumerable<BMS.Models.Book>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+<h1>Books</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Price</th>
+            <th>Published</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Author</td>
+                <td>@item.ISBN</td>
+                <td>@item.Price</td>
+                <td>@item.PublishedOn?.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BookId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.BookId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.BookId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

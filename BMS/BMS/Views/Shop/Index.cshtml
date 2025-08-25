@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BMS.Models.Shop>
+
+@{
+    ViewData["Title"] = "Shops";
+}
+
+<h2>Shops</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add New Shop</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Location)</th>
+            <th>@Html.DisplayNameFor(model => model.Phone)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Location</td>
+                <td>@item.Phone</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.ShopId">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@item.ShopId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ShopId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

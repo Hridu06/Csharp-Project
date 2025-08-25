@@ -1,0 +1,44 @@
+﻿@model IEnumerable<IMS.Models.Shipment>
+
+@{
+    ViewData["Title"] = "Shipments";
+}
+
+<h2>Shipments</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Shipment</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Supplier</th>
+            <th>Product</th>
+            <th>Warehouse</th>
+            <th>Quantity</th>
+            <th>Shipment Date</th>
+            <th>Total Cost</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Supplier.CompanyName</td>
+                <td>@item.Product.Name</td>
+                <td>@item.Warehouse.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.ShipmentDate.ToShortDateString()</td>
+                <td>@item.TotalCost.ToString("C")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ShipmentId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ShipmentId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ShipmentId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

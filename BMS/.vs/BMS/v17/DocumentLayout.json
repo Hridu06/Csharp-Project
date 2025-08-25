@@ -1,0 +1,661 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\BMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\models\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\models\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\models\\bookshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\models\\bookshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\shop\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\shop\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\shop\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\shop\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\shop\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\shop\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\controllers\\bookshopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\controllers\\bookshopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\bookshop\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\bookshop\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\bookshop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\bookshop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\bookshop\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\bookshop\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\bookshop\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\bookshop\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\bookshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\bookshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\migrations\\20250819181809_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\migrations\\20250819181809_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|d:\\c#\\bms\\bms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D40AB7D-749B-42E3-82FF-513733F0DFA7}|BMS\\BMS.csproj|solutionrelative:bms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "BMS\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "BMS\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:41:55.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Shop\\Edit.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Edit.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Shop\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:50:31.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Shop\\Details.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Shop\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:49:23.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Create.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Shop\\Create.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Create.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Shop\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwPRsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:49:55.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Shop\\Delete.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Delete.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Shop\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:50:54.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:49:00.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Order\\Create.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:45:08.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "BMS\\Models\\Book.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Models\\Book.cs",
+              "RelativeToolTip": "BMS\\Models\\Book.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:01:41.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BMS\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BMS\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:15:09.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookShop.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Models\\BookShop.cs",
+              "RelativeDocumentMoniker": "BMS\\Models\\BookShop.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Models\\BookShop.cs",
+              "RelativeToolTip": "BMS\\Models\\BookShop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:02:06.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "BMS\\Models\\Customer.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Models\\Customer.cs",
+              "RelativeToolTip": "BMS\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:02:20.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "BMS\\Models\\Order.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Models\\Order.cs",
+              "RelativeToolTip": "BMS\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:02:38.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Models\\Shop.cs",
+              "RelativeDocumentMoniker": "BMS\\Models\\Shop.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Models\\Shop.cs",
+              "RelativeToolTip": "BMS\\Models\\Shop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:01:52.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:51:23.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:44:47.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BMS\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BMS\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:25:16.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Order\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Order\\Edit.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Order\\Edit.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Order\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:45:28.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "BMS\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "BMS\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:34:22.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "BMS\\Controllers\\ShopController.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "BMS\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:47:24.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Order\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Order\\Delete.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Order\\Delete.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Order\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:46:07.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Order\\Details.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:45:48.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookShopsController.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Controllers\\BookShopsController.cs",
+              "RelativeDocumentMoniker": "BMS\\Controllers\\BookShopsController.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Controllers\\BookShopsController.cs",
+              "RelativeToolTip": "BMS\\Controllers\\BookShopsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:30:53.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Customer\\Delete.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Delete.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Customer\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:40:28.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:40:06.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:39:39.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Details.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Customer\\Details.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Details.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Customer\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:39:11.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:38:49.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\BookShop\\Delete.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Delete.cshtml",
+              "RelativeToolTip": "BMS\\Views\\BookShop\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:33:23.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Details.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\BookShop\\Details.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Details.cshtml",
+              "RelativeToolTip": "BMS\\Views\\BookShop\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:33:03.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\BookShop\\Edit.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Edit.cshtml",
+              "RelativeToolTip": "BMS\\Views\\BookShop\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:32:45.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Create.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\BookShop\\Create.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Create.cshtml",
+              "RelativeToolTip": "BMS\\Views\\BookShop\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:32:27.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Index.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\BookShop\\Index.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\BookShop\\Index.cshtml",
+              "RelativeToolTip": "BMS\\Views\\BookShop\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:32:03.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Book\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Book\\Delete.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Book\\Delete.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Book\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:28:53.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Book\\Details.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Book\\Details.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Book\\Details.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Book\\Details.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:28:33.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Book\\Edit.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Book\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:28:11.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Book\\Create.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:27:33.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "BMS\\Views\\Book\\Index.cshtml",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "BMS\\Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T18:27:05.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250819181809_Init.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Migrations\\20250819181809_Init.cs",
+              "RelativeDocumentMoniker": "BMS\\Migrations\\20250819181809_Init.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Migrations\\20250819181809_Init.cs",
+              "RelativeToolTip": "BMS\\Migrations\\20250819181809_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:18:09.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\Program.cs",
+              "RelativeDocumentMoniker": "BMS\\Program.cs",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\Program.cs",
+              "RelativeToolTip": "BMS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:15:46.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#\\BMS\\BMS\\appsettings.json",
+              "RelativeDocumentMoniker": "BMS\\appsettings.json",
+              "ToolTip": "D:\\C#\\BMS\\BMS\\appsettings.json",
+              "RelativeToolTip": "BMS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T18:09:59.618Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

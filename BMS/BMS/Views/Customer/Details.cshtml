@@ -1,0 +1,34 @@
+﻿@model BMS.Models.Customer
+
+@{
+    ViewData["Title"] = "Customer Details";
+}
+
+<h2>Customer Details</h2>
+
+<div>
+    <h4>@Model.FullName</h4>
+    <p>Email: @Model.Email</p>
+    <p>Phone: @Model.Phone</p>
+</div>
+
+<h4>Orders</h4>
+@if (Model.Orders.Any())
+{
+    <ul>
+        @foreach (var order in Model.Orders)
+        {
+            <li>Order #@order.OrderId on @order.OrderDate</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No orders yet.</p>
+}
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.CustomerId" class="btn btn-warning">Edit</a> |
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>
+

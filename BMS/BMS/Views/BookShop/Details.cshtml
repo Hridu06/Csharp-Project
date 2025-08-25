@@ -1,0 +1,22 @@
+﻿@model BMS.Models.BookShop
+
+@{
+    ViewData["Title"] = "BookShop Details";
+}
+
+<h1>BookShop Entry</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Book</dt>
+        <dd class="col-sm-10">@Model.Book?.Title</dd>
+        <dt class="col-sm-2">Shop</dt>
+        <dd class="col-sm-10">@Model.Shop?.Name</dd>
+        <dt class="col-sm-2">Quantity</dt>
+        <dd class="col-sm-10">@Model.Quantity</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.BookShopId" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</div>

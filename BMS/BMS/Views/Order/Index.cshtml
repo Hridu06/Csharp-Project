@@ -1,0 +1,46 @@
+﻿@model IEnumerable<BMS.Models.Order>
+
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h2>Orders</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New Order</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Book</th>
+            <th>Shop</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+            <th>Order Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Customer?.FullName</td>
+                <td>@order.BookShop?.Book?.Title</td>
+                <td>@order.BookShop?.Shop?.Name</td>
+                <td>@order.Quantity</td>
+                <td>@order.TotalPrice</td>
+                <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@order.OrderId">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@order.OrderId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@order.OrderId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

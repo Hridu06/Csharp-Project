@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">📦 Inventory Management Dashboard</h1>
+        <p class="lead">Quick access to manage your inventory system</p>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-3">
+            <a asp-controller="Products" asp-action="Index" class="btn btn-primary btn-lg w-100">
+                🛍️ Manage Products
+            </a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a asp-controller="Warehouses" asp-action="Index" class="btn btn-success btn-lg w-100">
+                🏭 Manage Warehouses
+            </a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a asp-controller="Suppliers" asp-action="Index" class="btn btn-warning btn-lg w-100">
+                🚚 Manage Suppliers
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a asp-controller="ProductWarehouses" asp-action="Index" class="btn btn-info btn-lg w-100">
+                📊 Product-Warehouse Stock
+            </a>
+        </div>
+        <div class="col-md-6 mb-3">
+            <a asp-controller="Shipments" asp-action="Index" class="btn btn-danger btn-lg w-100">
+                📦 Shipments
+            </a>
+        </div>
+    </div>
+</div>

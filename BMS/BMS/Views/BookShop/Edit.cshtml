@@ -1,0 +1,25 @@
+﻿@model BMS.Models.BookShop
+
+@{
+    ViewData["Title"] = "Edit BookShop";
+}
+
+<h1>Edit BookShop Entry</h1>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="BookShopId" />
+    <div class="form-group">
+        <label asp-for="BookId"></label>
+        <select asp-for="BookId" class="form-control" asp-items="ViewBag.BookId"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="ShopId"></label>
+        <select asp-for="ShopId" class="form-control" asp-items="ViewBag.ShopId"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

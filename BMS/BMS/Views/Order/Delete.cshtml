@@ -1,0 +1,24 @@
+﻿@model BMS.Models.Order
+
+@{
+    ViewData["Title"] = "Delete Order";
+}
+
+<h2>Delete Order</h2>
+
+<h4>Are you sure you want to delete this order?</h4>
+
+<div>
+    <p>Customer: @Model.Customer?.FullName</p>
+    <p>Book: @Model.BookShop?.Book?.Title</p>
+    <p>Shop: @Model.BookShop?.Shop?.Name</p>
+    <p>Quantity: @Model.Quantity</p>
+    <p>Total Price: @Model.TotalPrice</p>
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="OrderId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+

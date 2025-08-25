@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bookshop Management System</h1>
+    <p>Manage all your books, shops, customers, and orders from here.</p>
+</div>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Book" asp-action="Index" class="btn btn-primary btn-lg btn-block">
+                Manage Books
+            </a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Shop" asp-action="Index" class="btn btn-success btn-lg btn-block">
+                Manage Shops
+            </a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Customer" asp-action="Index" class="btn btn-warning btn-lg btn-block">
+                Manage Customers
+            </a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Orders" asp-action="Index" class="btn btn-danger btn-lg btn-block">
+                Manage Orders
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+﻿@model BMS.Models.Shop
+
+@{
+    ViewData["Title"] = "Shop Details";
+}
+
+<h2>Shop Details</h2>
+
+<div>
+    <h4>@Model.Name</h4>
+    <p>Location: @Model.Location</p>
+    <p>Phone: @Model.Phone</p>
+</div>
+
+<h4>Books in Shop</h4>
+@if (Model.BookShops.Any())
+{
+    <ul>
+        @foreach (var bs in Model.BookShops)
+        {
+            <li>@bs.Book?.Title (Stock: @bs.Quantity)</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No books available.</p>
+}
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.ShopId" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>
