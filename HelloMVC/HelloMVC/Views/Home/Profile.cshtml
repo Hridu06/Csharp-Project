@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Profile";
+}
+
+<div style="display:flex; justify-content:center; align-items:center; height:100vh; background:linear-gradient(135deg, #ff9a9e, #fad0c4); font-family:'Segoe UI', sans-serif;">
+
+    <div style="width:360px;
+                background: linear-gradient(145deg, #4facfe, #00f2fe);
+                padding:40px 30px 30px;
+                border-radius:25px;
+                box-shadow:0 15px 35px rgba(0,0,0,0.25);
+                text-align:center;
+                transition:transform 0.3s ease;
+                border:1px solid rgba(255,255,255,0.2);
+                color:white;">
+
+        
+        <img src="~/img/l.jpeg"
+             alt="Profile Picture"
+             style="width:130px; height:130px; object-fit:contain; margin-bottom:20px; border-radius:50%; border:5px solid #fff; box-shadow:0 6px 15px rgba(0,0,0,0.3);" />
+
+        
+        <h2 style="margin-bottom:8px; font-size:28px; color:black;">@ViewBag.Name</h2>
+        <p style="margin:5px 0; font-size:16px; color:black;"><b>Age:</b> @ViewBag.Age</p>
+        <p style="margin:5px 0; font-size:16px; color:black;"><b>Country:</b> @ViewBag.Country</p>
+
+        
+        <div style="margin-top:25px; display:flex; justify-content:center; gap:15px;">
+            <button style="flex:1; background:linear-gradient(135deg,#ff6f61,#ff3c3c); color:white; border:none; padding:12px 0; border-radius:30px; cursor:pointer; font-size:16px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.25); transition:all 0.3s ease;">
+                Follow
+            </button>
+            <button style="flex:1; background:linear-gradient(135deg,#6a11cb,#2575fc); color:white; border:none; padding:12px 0; border-radius:30px; cursor:pointer; font-size:16px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.25); transition:all 0.3s ease;">
+                ✉ Message
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Hover animation for profile card
+    const card = document.querySelector("div > div");
+    card.addEventListener("mouseover", () => {
+        card.style.transform = "scale(1.06)";
+    });
+    card.addEventListener("mouseout", () => {
+        card.style.transform = "scale(1)";
+    });
+
+    // Button hover effects
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(btn => {
+        btn.addEventListener("mouseover", () => {
+            btn.style.transform = "scale(1.1)";
+            btn.style.boxShadow = "0 6px 20px rgba(0,0,0,0.35)";
+        });
+        btn.addEventListener("mouseout", () => {
+            btn.style.transform = "scale(1)";
+            btn.style.boxShadow = "0 5px 15px rgba(0,0,0,0.25)";
+        });
+    });
+</script>

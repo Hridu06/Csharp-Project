@@ -1,0 +1,46 @@
+﻿@model HelloMVC.Models.Student
+
+<div style="display:flex; justify-content:center; align-items:center; min-height:100vh;
+            background:linear-gradient(135deg, #a1c4fd, #c2e9fb); font-family:'Segoe UI', sans-serif;">
+
+    <div style="max-width:400px; width:100%; padding:30px; border-radius:25px;
+                background: linear-gradient(145deg, #6a11cb, #2575fc);
+                box-shadow:0 15px 35px rgba(0,0,0,0.3); text-align:center; transition:transform 0.3s ease; color:white;">
+
+        <h2 style="margin-bottom:25px; color:white;">🎓 Student Details</h2>
+
+        <ul style="list-style:none; padding:0; font-size:18px; line-height:2; text-align:left;">
+            <li style="background: rgba(255,255,255,0.1); padding:10px 15px; border-radius:10px; margin-bottom:10px; display:flex; align-items:center; gap:10px;">
+                <span>🆔</span>
+                <span><b>ID:</b> @Model.Id</span>
+            </li>
+            <li style="background: rgba(255,255,255,0.1); padding:10px 15px; border-radius:10px; margin-bottom:10px; display:flex; align-items:center; gap:10px;">
+                <span>👤</span>
+                <span><b>Name:</b> @Model.Name</span>
+            </li>
+            <li style="background: rgba(255,255,255,0.1); padding:10px 15px; border-radius:10px; margin-bottom:10px; display:flex; align-items:center; gap:10px;">
+                <span>✉️</span>
+                <span><b>Email:</b> <a href="mailto:@Model.Email" style="color:#ffd700; text-decoration:none;">@Model.Email</a></span>
+            </li>
+            <li style="background: rgba(255,255,255,0.1); padding:10px 15px; border-radius:10px; display:flex; align-items:center; gap:10px;">
+                <span>📊</span>
+                <span><b>Grade:</b> <span style="color:@(Model.Grade >= 50 ? "lightgreen" : "red"); font-weight:600;">@Model.Grade</span></span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    // Hover effect for the card
+    const card = document.querySelector("div > div");
+    card.addEventListener("mouseover", () => {
+        card.style.transform = "scale(1.05)";
+        card.style.boxShadow = "0 20px 50px rgba(0,0,0,0.4)";
+    });
+    card.addEventListener("mouseout", () => {
+        card.style.transform = "scale(1)";
+        card.style.boxShadow = "0 15px 35px rgba(0,0,0,0.3)";
+    });
+</script>
+
+

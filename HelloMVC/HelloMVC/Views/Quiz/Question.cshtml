@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Quiz Question";
+}
+
+<!-- Full-screen background wrapper -->
+<div style="min-height:100vh; display:flex; align-items:center; justify-content:center;
+            background:linear-gradient(135deg,#74ebd5,#ACB6E5); font-family:Segoe UI, Tahoma, sans-serif;">
+
+    <!-- Quiz Card -->
+    <div style="max-width:600px; width:90%; background:#f9fbfd; border-radius:18px;
+                padding:40px; box-shadow:0 10px 25px rgba(0,0,0,0.15);">
+
+        <h2 style="color:#2c3e50; margin-bottom:25px; text-align:center; font-size:26px;">
+            📝 @ViewBag.Question
+        </h2>
+
+        <form method="post" asp-controller="Quiz" asp-action="Question">
+            <div style="display:flex; flex-direction:column; gap:15px;">
+                @foreach (var option in ViewBag.Options)
+                {
+                    <label for="@option"
+                           style="display:flex; align-items:center; gap:12px; background:white; padding:14px 18px;
+                                          border:2px solid #dfe6e9; border-radius:12px; cursor:pointer; transition:all 0.3s ease;">
+                        <input type="radio" id="@option" name="selectedOption" value="@option" required
+                               style="accent-color:#3498db; transform:scale(1.3);" />
+                        <span style="font-size:16px; color:#2c3e50;">@option</span>
+                    </label>
+                }
+            </div>
+
+            <div style="text-align:center; margin-top:30px;">
+                <button type="submit"
+                        style="background:linear-gradient(135deg,#2980b9,#3498db); color:white; border:none;
+                               padding:12px 28px; font-size:16px; border-radius:10px; cursor:pointer;
+                               transition:all 0.3s ease; box-shadow:0 6px 16px rgba(0,0,0,0.2);">
+                    ✅ Submit Answer
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    /* Hover + Active states for options */
+    label:hover {
+        border-color: #3498db !important;
+        background: #ecf7ff !important;
+    }
+
+    input[type="radio"]:checked + span {
+        font-weight: 600;
+        color: #2980b9 !important;
+    }
+
+    button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+
+    button:active {
+        transform: scale(0.96);
+    }
+</style>
+
+
+

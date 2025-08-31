@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\HelloMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\views\\quiz\\question.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\views\\quiz\\question.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\views\\quiz\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\views\\quiz\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|d:\\c#\\hellomvc\\hellomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBC69B6-6F2E-4F86-8184-69641B50D41A}|HelloMVC\\HelloMVC.csproj|solutionrelative:hellomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Product\\Order.cshtml",
+              "RelativeDocumentMoniker": "HelloMVC\\Views\\Product\\Order.cshtml",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Product\\Order.cshtml",
+              "RelativeToolTip": "HelloMVC\\Views\\Product\\Order.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-29T10:57:07.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HelloMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HelloMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-29T10:58:06.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "HelloMVC\\Models\\Product.cs",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Models\\Product.cs",
+              "RelativeToolTip": "HelloMVC\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T22:03:08.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "HelloMVC\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "HelloMVC\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T22:03:41.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Quiz\\Result.cshtml",
+              "RelativeDocumentMoniker": "HelloMVC\\Views\\Quiz\\Result.cshtml",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Quiz\\Result.cshtml",
+              "RelativeToolTip": "HelloMVC\\Views\\Quiz\\Result.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T22:02:26.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Product\\List.cshtml",
+              "RelativeDocumentMoniker": "HelloMVC\\Views\\Product\\List.cshtml",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Product\\List.cshtml",
+              "RelativeToolTip": "HelloMVC\\Views\\Product\\List.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T22:13:59.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "HelloMVC\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "HelloMVC\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:42:22.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "HelloMVC\\Controllers\\QuizController.cs",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "HelloMVC\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:59:00.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "HelloMVC\\Models\\Student.cs",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Models\\Student.cs",
+              "RelativeToolTip": "HelloMVC\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:40:20.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "HelloMVC\\Views\\Student\\Details.cshtml",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "HelloMVC\\Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T11:22:42.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HelloMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HelloMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:03:20.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Program.cs",
+              "RelativeDocumentMoniker": "HelloMVC\\Program.cs",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Program.cs",
+              "RelativeToolTip": "HelloMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:31:27.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Question.cshtml",
+              "DocumentMoniker": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Quiz\\Question.cshtml",
+              "RelativeDocumentMoniker": "HelloMVC\\Views\\Quiz\\Question.cshtml",
+              "ToolTip": "D:\\C#\\HelloMVC\\HelloMVC\\Views\\Quiz\\Question.cshtml",
+              "RelativeToolTip": "HelloMVC\\Views\\Quiz\\Question.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T22:01:34.585Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

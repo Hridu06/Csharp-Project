@@ -1,0 +1,30 @@
+﻿@model List<HelloMVC.Models.Product>
+
+<h2 style="text-align:center; margin-bottom:20px;">🛒 Product List</h2>
+
+<table style="width:80%; margin:auto; border-collapse:collapse; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+    <thead style="background:#2c3e50; color:white;">
+        <tr>
+            <th style="padding:12px;">ID</th>
+            <th style="padding:12px;">Name</th>
+            <th style="padding:12px;">Price ($)</th>
+            <th style="padding:12px;">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr style="text-align:center; border-bottom:1px solid #ddd;">
+                <td style="padding:10px;">@product.Id</td>
+                <td style="padding:10px;">@product.Name</td>
+                <td style="padding:10px;">@product.Price</td>
+                <td style="padding:10px;">
+                    <a asp-controller="Product" asp-action="Order" asp-route-id="@product.Id"
+                       style="padding:8px 16px; background:linear-gradient(135deg,#ff7e5f,#feb47b); color:white; border-radius:20px; text-decoration:none; font-weight:600; transition:0.3s;">
+                        Buy
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

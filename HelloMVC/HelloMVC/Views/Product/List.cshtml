@@ -1,0 +1,80 @@
+﻿@model List<HelloMVC.Models.Product>
+
+<div style="min-height:100vh; display:flex; align-items:center; justify-content:center;
+            background:linear-gradient(135deg,#74ebd5,#9face6); font-family:Segoe UI, Tahoma, sans-serif; padding:40px;">
+
+    <div style="width:95%; max-width:850px;
+                background:rgba(255,255,255,0.85);
+                backdrop-filter:blur(12px);
+                border-radius:20px;
+                padding:35px;
+                box-shadow:0 10px 30px rgba(0,0,0,0.2);">
+
+        <h2 style="text-align:center; margin-bottom:28px; color:#2c3e50; font-size:30px; font-weight:600;">
+            ✨ Products List
+        </h2>
+
+        <table style="width:100%; border-collapse:collapse; text-align:center; font-size:16px;">
+            <thead>
+                <tr style="background:linear-gradient(135deg,#2980b9,#3498db); color:white;">
+                    <th style="padding:14px; border-radius:12px 0 0 0;">ID</th>
+                    <th style="padding:14px;">Name</th>
+                    <th style="padding:14px;">Price (tk)</th>
+                    <th style="padding:14px; border-radius:0 12px 0 0;">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr style="border-bottom:1px solid #ecf0f1; transition:all 0.3s ease;">
+                        <td style="padding:14px;">@product.Id</td>
+                        <td style="padding:14px; text-align:left;">@product.Name</td>
+                        <td style="padding:14px;">@product.Price</td>
+                        <td style="padding:14px;">
+                            <!-- Direct link styled as button -->
+                            <a asp-controller="Product" asp-action="Order" asp-route-id="@product.Id"
+                               style="display:inline-block;
+                                          background:linear-gradient(135deg,#27ae60,#2ecc71,#27ae60);
+                                          background-size:200% auto;
+                                          color:white;
+                                          border:none;
+                                          padding:10px 22px;
+                                          border-radius:10px;
+                                          cursor:pointer;
+                                          transition:all 0.4s ease;
+                                          font-size:15px;
+                                          font-weight:500;
+                                          box-shadow:0 5px 15px rgba(0,0,0,0.15);
+                                          text-decoration:none;">
+                                🛒 Buy
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    /* Row hover effect */
+    tbody tr:hover {
+        background: #f1f9ff;
+        transform: scale(1.01);
+    }
+
+    /* Fancy button hover */
+    a[asp-controller="Product"] {
+        background-position: right center;
+    }
+
+        a[asp-controller="Product"]:hover {
+            background-position: left center;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+        }
+
+        a[asp-controller="Product"]:active {
+            transform: scale(0.95);
+        }
+</style>

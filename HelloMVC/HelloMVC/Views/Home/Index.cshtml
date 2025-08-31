@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<div style="display:flex; justify-content:center; align-items:center; min-height:100vh;
+            background:linear-gradient(135deg, #6dd5ed, #2193b0); color:white; font-family:'Segoe UI', sans-serif; padding:40px;">
+
+    <div style="text-align:center; padding:40px; border-radius:20px; background:rgba(0,0,0,0.35); backdrop-filter:blur(8px); box-shadow:0 8px 20px rgba(0,0,0,0.3);">
+
+        <h1 style="font-size:48px; margin-bottom:15px; letter-spacing:1px;">👋 Welcome to MVC Practice</h1>
+        <p style="font-size:20px; margin-bottom:35px; opacity:0.9;">Explore how data flows across Controllers ➝ Views ➝ Routes</p>
+
+        <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:20px;">
+            <!-- Profile -->
+            <a href="Home/Profile"
+               style="padding:12px 25px; background:linear-gradient(135deg,#ff9a9e,#ff6f61); color:white; text-decoration:none; border-radius:30px; font-size:18px; font-weight:600; box-shadow:0 4px 12px rgba(0,0,0,0.2); transition:all 0.3s ease;">
+                👤 Profile
+            </a>
+
+            <!-- Student Details -->
+            <a href="Student/Details"
+               style="padding:12px 25px; background:linear-gradient(135deg,#6a11cb,#2575fc); color:white; text-decoration:none; border-radius:30px; font-size:18px; font-weight:600; box-shadow:0 4px 12px rgba(0,0,0,0.2); transition:all 0.3s ease;">
+                🎓 Student
+            </a>
+
+            <!-- Student List -->
+            <a href="Student/StudentList"
+               style="padding:12px 25px; background:linear-gradient(135deg,#11998e,#38ef7d); color:white; text-decoration:none; border-radius:30px; font-size:18px; font-weight:600; box-shadow:0 4px 12px rgba(0,0,0,0.2); transition:all 0.3s ease;">
+                📋 Student List
+            </a>
+
+            <!-- Quiz Question -->
+            <a href="Quiz/Question"
+               style="padding:12px 25px; background:linear-gradient(135deg,#f7971e,#ffd200); color:white; text-decoration:none; border-radius:30px; font-size:18px; font-weight:600; box-shadow:0 4px 12px rgba(0,0,0,0.2); transition:all 0.3s ease;">
+                ❓ Quiz Question
+            </a>
+
+            <!-- Quiz Result -->
+            <a href="Quiz/Result"
+               style="padding:12px 25px; background:linear-gradient(135deg,#f953c6,#b91d73); color:white; text-decoration:none; border-radius:30px; font-size:18px; font-weight:600; box-shadow:0 4px 12px rgba(0,0,0,0.2); transition:all 0.3s ease;">
+                📊 Quiz Result
+            </a>
+
+            <!-- Product List -->
+            <a href="Product/List"
+               style="padding:12px 25px; background:linear-gradient(135deg,#11998e,#38ef7d); color:white; text-decoration:none; border-radius:30px; font-size:18px; font-weight:600; box-shadow:0 4px 12px rgba(0,0,0,0.2); transition:all 0.3s ease;">
+                🛒 Product List
+            </a>
+
+            <!-- Order -->
+            <a href="Product/Order"
+               style="padding:12px 25px; background:linear-gradient(135deg,#ff416c,#ff4b2b); color:white; text-decoration:none; border-radius:30px; font-size:18px; font-weight:600; box-shadow:0 4px 12px rgba(0,0,0,0.2); transition:all 0.3s ease;">
+                📝 Order
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Button hover animation
+    const buttons = document.querySelectorAll("a");
+    buttons.forEach(btn => {
+        btn.addEventListener("mouseover", () => {
+            btn.style.transform = "scale(1.1)";
+            btn.style.boxShadow = "0 6px 18px rgba(0,0,0,0.3)";
+        });
+        btn.addEventListener("mouseout", () => {
+            btn.style.transform = "scale(1)";
+            btn.style.boxShadow = "0 4px 12px rgba(0,0,0,0.2)";
+        });
+    });
+</script>

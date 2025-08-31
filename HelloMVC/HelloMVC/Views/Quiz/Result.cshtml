@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "Quiz Result";
+    var isCorrect = ViewBag.Result?.ToString().Contains("Correct") ?? false;
+}
+
+<!-- Background wrapper -->
+<div style="min-height:100vh; display:flex; align-items:center; justify-content:center;
+            background:linear-gradient(135deg, #6dd5ed, #2193b0); font-family:'Segoe UI', sans-serif;">
+
+    <!-- Result Card -->
+    <div class="result-card">
+        <h2>📊 Quiz Result</h2>
+
+        <p class="result-text @(isCorrect ? "correct" : "incorrect")">
+            @ViewBag.Result
+        </p>
+
+        <a href="/Quiz/Question" class="retry-btn">🔁 Try Another Question</a>
+    </div>
+</div>
+
+<style>
+    .result-card {
+        background: white;
+        border-radius: 18px;
+        padding: 40px;
+        width: 500px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        text-align: center;
+        animation: fadeIn 0.7s ease;
+    }
+
+    .result-card h2 {
+        color: #2c3e50;
+        margin-bottom: 25px;
+        font-size: 26px;
+    }
+
+    .result-text {
+        font-size: 22px;
+        font-weight: bold;
+        padding: 18px;
+        border-radius: 12px;
+        box-shadow: inset 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .result-text.correct {
+        background: #eafaf1;
+        color: #27ae60;
+    }
+
+    .result-text.incorrect {
+        background: #fdecea;
+        color: #c0392b;
+    }
+
+    .retry-btn {
+        display: inline-block;
+        margin-top: 25px;
+        background: linear-gradient(135deg,#8e44ad,#9b59b6);
+        color: white;
+        padding: 14px 28px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    }
+
+    .retry-btn:hover {
+        background: linear-gradient(135deg,#732d91,#8e44ad);
+        transform: translateY(-3px);
+        box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    }
+
+    .retry-btn:active {
+        transform: scale(0.96);
+    }
+
+     fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+

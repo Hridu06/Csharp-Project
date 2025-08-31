@@ -1,0 +1,76 @@
+﻿<div style="margin:40px; font-family:Segoe UI, Tahoma, sans-serif;">
+    <h2 style="text-align:center; color:#2c3e50; margin-bottom:20px; font-size:28px; letter-spacing:1px;">
+        📋 Student List
+    </h2>
+
+    <!-- 🔍 Search + Filter Controls -->
+    <div style="display:flex; justify-content:space-between; margin-bottom:20px;">
+        <input type="text" id="searchBox" placeholder="Search by name or email..."
+               style="padding:10px; width:65%; border:1px solid #ccc; border-radius:8px; outline:none; box-shadow:0 2px 6px rgba(0,0,0,0.05);"
+               onkeyup="filterTable()" />
+
+        <select id="statusFilter" onchange="filterTable()"
+                style="padding:10px; border:1px solid #ccc; border-radius:8px; width:30%; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+            <option value="">All</option>
+            <option value="Passed">✅ Passed</option>
+            <option value="Failed">❌ Failed</option>
+        </select>
+    </div>
+
+    <!-- 📊 Student Table -->
+    <table id="studentTable" style="width:100%; border-collapse:collapse; border-radius:12px; overflow:hidden; box-shadow:0 6px 16px rgba(0,0,0,0.1);">
+        <thead style="background:linear-gradient(135deg, #2980b9, #3498db); color:white; font-size:16px;">
+            <tr>
+                <th style="padding:14px;">ID</th>
+                <th style="padding:14px;">Name</th>
+                <th style="padding:14px;">Email</th>
+                <th style="padding:14px;">Grade</th>
+                <th style="padding:14px;">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr style="text-align:center; background:@(student.Grade >= 50 ? "#ecf7ff" : "#fff0f0"); transition:all 0.3s ease;"
+                    onmouseover="this.style.backgroundColor='rgba(52, 152, 219, 0.15)'; this.style.transform='scale(1.01)';"
+                    onmouseout="this.style.backgroundColor='@(student.Grade >= 50 ? "#ecf7ff" : "#fff0f0")'; this.style.transform='scale(1)';">
+                    <td style="padding:12px; font-weight:500; color:#2c3e50;">@student.Id</td>
+                    <td style="padding:12px; font-weight:500; color:#2c3e50;">@student.Name</td>
+                    <td style="padding:12px; color:#555;">@student.Email</td>
+                    <td style="padding:12px; font-weight:bold; color:@(student.Grade >= 50 ? "#2980b9" : "#c0392b");">
+                        @student.Grade
+                    </td>
+                    <td style="padding:12px; font-weight:bold; color:@(student.Grade >= 50 ? "#2980b9" : "#e74c3c");">
+                        @(student.Grade >= 50 ? "✅ Passed" : "❌ Failed")
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function filterTable() {
+        let search = document.getElementById("searchBox").value.toLowerCase();
+        let filter = document.getElementById("statusFilter").value;
+        let rows = document.querySelectorAll("#studentTable tbody tr");
+
+        rows.forEach(row => {
+            let name = row.cells[1].innerText.toLowerCase();
+            let email = row.cells[2].innerText.toLowerCase();
+            let status = row.cells[4].innerText;
+
+            let matchSearch = name.includes(search) || email.includes(search);
+            let matchStatus = filter === "" || status.includes(filter);
+
+            if (matchSearch && matchStatus) {
+                row.style.display = "";
+            } else {
+                row.style.display = "none";
+            }
+        });
+    }
+</script>
+
+
+
