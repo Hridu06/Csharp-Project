@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Quiz Question";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white text-center">
+                    <h2>Quiz Question</h2>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <p class="fs-5 mb-3"><strong>Which programming language is used in ASP.NET MVC?</strong></p>
+
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="answer" value="Java" id="javaOption">
+                            <label class="form-check-label" for="javaOption">Java</label>
+                        </div>
+
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="answer" value="Python" id="pythonOption">
+                            <label class="form-check-label" for="pythonOption">Python</label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="answer" value="C#" id="csharpOption">
+                            <label class="form-check-label" for="csharpOption">C#</label>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success px-4">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

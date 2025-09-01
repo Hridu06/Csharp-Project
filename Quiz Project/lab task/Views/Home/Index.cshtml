@@ -1,0 +1,111 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<style>
+    body {
+        background: linear-gradient(135deg, #f0f4ff, #d9e2ff);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60vh;
+    }
+
+    .card {
+        background-color: #ffffff;
+        padding: 40px 60px;
+        margin: 15px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+        }
+
+        .card h2 {
+            color: #4a4a4a;
+            margin-bottom: 30px;
+        }
+
+    .btn-custom {
+        width: 220px;
+        margin: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 50px;
+        padding: 12px 20px;
+        transition: all 0.3s;
+    }
+
+    .btn-primary {
+        background-color: #4e73df;
+        border: none;
+        color: white;
+    }
+
+        .btn-primary:hover {
+            background-color: #2e59d9;
+        }
+
+    .btn-success {
+        background-color: #1cc88a;
+        border: none;
+        color: white;
+    }
+
+        .btn-success:hover {
+            background-color: #17a673;
+        }
+
+    .project-section {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+        .project-section h3 {
+            margin-bottom: 20px;
+        }
+
+        .project-section .btn {
+            margin: 10px;
+            font-size: 16px;
+            padding: 10px 25px;
+            border-radius: 50px;
+        }
+</style>
+
+<div class="card-container">
+    <div class="card">
+        <h2>My MVC Application</h2>
+
+        <!-- Button to Register Student -->
+        <form action="@Url.Action("Register", "Student")" method="get">
+            <button type="submit" class="btn btn-primary btn-custom">
+                👨‍🎓 Register Student
+            </button>
+        </form>
+
+        <!-- Button to Simple Calculator -->
+        <form action="@Url.Action("Calculator", "Student")" method="get">
+            <button type="submit" class="btn btn-success btn-custom">
+                🔢 Calculator
+            </button>
+        </form>
+    </div>
+</div>
+
+<div class="project-section">
+    <h3>Task 3 – Dummy Projects</h3>
+    <a class="btn btn-dark" href="@Url.Action("Question", "Quiz")">📝 Online Quiz</a>
+    <a class="btn btn-danger" href="@Url.Action("List", "Product")">🛒 Mini Shop</a>
+</div>

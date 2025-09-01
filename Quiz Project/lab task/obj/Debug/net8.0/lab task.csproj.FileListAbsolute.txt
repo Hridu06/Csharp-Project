@@ -1,0 +1,31 @@
+D:\C#\lab task\lab task\bin\Debug\net8.0\appsettings.Development.json
+D:\C#\lab task\lab task\bin\Debug\net8.0\appsettings.json
+D:\C#\lab task\lab task\bin\Debug\net8.0\lab task.staticwebassets.runtime.json
+D:\C#\lab task\lab task\bin\Debug\net8.0\lab task.staticwebassets.endpoints.json
+D:\C#\lab task\lab task\bin\Debug\net8.0\lab task.exe
+D:\C#\lab task\lab task\bin\Debug\net8.0\lab task.deps.json
+D:\C#\lab task\lab task\bin\Debug\net8.0\lab task.runtimeconfig.json
+D:\C#\lab task\lab task\bin\Debug\net8.0\lab task.dll
+D:\C#\lab task\lab task\bin\Debug\net8.0\lab task.pdb
+D:\C#\lab task\lab task\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.AssemblyInfoInputs.cache
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.AssemblyInfo.cs
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.csproj.CoreCompileInputs.cache
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.MvcApplicationPartsAssemblyInfo.cache
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.RazorAssemblyInfo.cache
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.RazorAssemblyInfo.cs
+D:\C#\lab task\lab task\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\C#\lab task\lab task\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\C#\lab task\lab task\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\C#\lab task\lab task\obj\Debug\net8.0\scopedcss\bundle\lab task.styles.css
+D:\C#\lab task\lab task\obj\Debug\net8.0\staticwebassets.build.json
+D:\C#\lab task\lab task\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\C#\lab task\lab task\obj\Debug\net8.0\staticwebassets.development.json
+D:\C#\lab task\lab task\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\C#\lab task\lab task\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.dll
+D:\C#\lab task\lab task\obj\Debug\net8.0\refint\lab task.dll
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.pdb
+D:\C#\lab task\lab task\obj\Debug\net8.0\lab task.genruntimeconfig.cache
+D:\C#\lab task\lab task\obj\Debug\net8.0\ref\lab task.dll
