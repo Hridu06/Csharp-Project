@@ -1,0 +1,15 @@
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\bin\Debug\net8.0\VisitorManagementSystem.Application.deps.json
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\bin\Debug\net8.0\VisitorManagementSystem.Application.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\bin\Debug\net8.0\VisitorManagementSystem.Application.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\bin\Debug\net8.0\VisitorManagementSystem.Domain.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\bin\Debug\net8.0\VisitorManagementSystem.Domain.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\VisitorManagementSystem.Application.csproj.AssemblyReference.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\VisitorManagementSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\VisitorManagementSystem.Application.AssemblyInfoInputs.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\VisitorManagementSystem.Application.AssemblyInfo.cs
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\VisitorManagementSystem.Application.csproj.CoreCompileInputs.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\VisitorM.A1995398.Up2Date
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\VisitorManagementSystem.Application.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\refint\VisitorManagementSystem.Application.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\VisitorManagementSystem.Application.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.Application\obj\Debug\net8.0\ref\VisitorManagementSystem.Application.dll

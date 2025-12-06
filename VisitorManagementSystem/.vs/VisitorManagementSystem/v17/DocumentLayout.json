@@ -1,0 +1,678 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\VisitorManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|solutionrelative:visitormanagementsystem.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\identity\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\identity\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|solutionrelative:visitormanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\identity\\identityinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\identity\\identityinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|solutionrelative:visitormanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Migrations\\20251102114456_InitialIdentityMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VisitorManagementSystem.Infrastructure\\Migrations\\20251102114456_InitialIdentityMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.webapi\\visitormanagementsystem.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|solutionrelative:visitormanagementsystem.webapi\\visitormanagementsystem.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.webapi\\controllers\\visitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|solutionrelative:visitormanagementsystem.webapi\\controllers\\visitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.webapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|solutionrelative:visitormanagementsystem.webapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B957F-AD5A-4FA4-87E9-81CC9FF3C362}|VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj|solutionrelative:visitormanagementsystem.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\dependencyinjection\\infrastructuredependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\dependencyinjection\\infrastructuredependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\visitormanagementsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\visitormanagementsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\signalr\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\signalr\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\services\\visitorapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\services\\visitorapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\repositories\\visitorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\repositories\\visitorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\repositories\\visitrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\repositories\\visitrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|solutionrelative:visitormanagementsystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.domain\\entities\\visitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|solutionrelative:visitormanagementsystem.domain\\entities\\visitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.domain\\entities\\visitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|solutionrelative:visitormanagementsystem.domain\\entities\\visitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.infrastructure\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EDBBE2-EE3A-4A38-8F81-D66ED9CA7849}|VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj|solutionrelative:visitormanagementsystem.infrastructure\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.application\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|solutionrelative:visitormanagementsystem.application\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.application\\interfaces\\ivisitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|solutionrelative:visitormanagementsystem.application\\interfaces\\ivisitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.application\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|solutionrelative:visitormanagementsystem.application\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.application\\dtos\\visitrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|solutionrelative:visitormanagementsystem.application\\dtos\\visitrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|solutionrelative:visitormanagementsystem.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|solutionrelative:visitormanagementsystem.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|solutionrelative:visitormanagementsystem.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.application\\dtos\\auth\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|solutionrelative:visitormanagementsystem.application\\dtos\\auth\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.application\\visitormanagementsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3C622880-52B2-475D-93B1-B3BED3F9ACEB}|VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj|solutionrelative:visitormanagementsystem.application\\visitormanagementsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|solutionrelative:visitormanagementsystem.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.domain\\enums\\visitstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|solutionrelative:visitormanagementsystem.domain\\enums\\visitstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|solutionrelative:visitormanagementsystem.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|f:\\visitormanagementsystem\\visitormanagementsystem.domain\\visitormanagementsystem.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF13B083-927D-4564-978B-CF49EE94FB81}|VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj|solutionrelative:visitormanagementsystem.domain\\visitormanagementsystem.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.WebAPI\\Program.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Program.cs",
+              "RelativeToolTip": "VisitorManagementSystem.WebAPI\\Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T11:11:51.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VisitorManagementSystem.WebAPI",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj",
+              "RelativeToolTip": "VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-02T11:23:08.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VisitController.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Controllers\\VisitController.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.WebAPI\\Controllers\\VisitController.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Controllers\\VisitController.cs",
+              "RelativeToolTip": "VisitorManagementSystem.WebAPI\\Controllers\\VisitController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T11:05:47.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.WebAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "VisitorManagementSystem.WebAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T11:05:28.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "VisitorManagementSystem.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T11:05:11.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdentityInitializer.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Identity\\IdentityInitializer.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Identity\\IdentityInitializer.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Identity\\IdentityInitializer.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Identity\\IdentityInitializer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:09:23.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:10:59.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentityService.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Identity\\IdentityService.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Identity\\IdentityService.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Identity\\IdentityService.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Identity\\IdentityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:09:37.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.WebAPI\\appsettings.json",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\appsettings.json",
+              "RelativeToolTip": "VisitorManagementSystem.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-02T11:14:16.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251102114456_InitialIdentityMigration.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Migrations\\20251102114456_InitialIdentityMigration.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Migrations\\20251102114456_InitialIdentityMigration.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Migrations\\20251102114456_InitialIdentityMigration.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Migrations\\20251102114456_InitialIdentityMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T11:44:59.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "VisitorManagementSystem.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T11:06:18.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InfrastructureDependencyInjection.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\DependencyInjection\\InfrastructureDependencyInjection.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\DependencyInjection\\InfrastructureDependencyInjection.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\DependencyInjection\\InfrastructureDependencyInjection.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\DependencyInjection\\InfrastructureDependencyInjection.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:52:32.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\SignalR\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\SignalR\\NotificationHub.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\SignalR\\NotificationHub.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\SignalR\\NotificationHub.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:50:17.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VisitorRepository.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Repositories\\VisitorRepository.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Repositories\\VisitorRepository.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Repositories\\VisitorRepository.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Repositories\\VisitorRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:10:19.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Services\\NotificationService.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Services\\NotificationService.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:11:10.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VisitorApprovalService.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Services\\VisitorApprovalService.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Services\\VisitorApprovalService.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Services\\VisitorApprovalService.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Services\\VisitorApprovalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:11:22.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VisitorManagementSystem.Infrastructure",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\VisitorManagementSystem.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-02T10:08:02.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VisitRequestRepository.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Repositories\\VisitRequestRepository.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Repositories\\VisitRequestRepository.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Repositories\\VisitRequestRepository.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Repositories\\VisitRequestRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:10:31.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:10:03.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VisitRequest.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Entities\\VisitRequest.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Domain\\Entities\\VisitRequest.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Entities\\VisitRequest.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Domain\\Entities\\VisitRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:36:58.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Visitor.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Entities\\Visitor.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Domain\\Entities\\Visitor.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Entities\\Visitor.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Domain\\Entities\\Visitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:36:30.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:09:11.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:08:41.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Domain\\Entities\\User.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:32:26.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Data\\DapperContext.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Infrastructure\\Data\\DapperContext.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Infrastructure\\Data\\DapperContext.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Infrastructure\\Data\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:08:28.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Application\\Interfaces\\INotificationService.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Application\\Interfaces\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:56:44.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IVisitService.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\Interfaces\\IVisitService.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Application\\Interfaces\\IVisitService.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\Interfaces\\IVisitService.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Application\\Interfaces\\IVisitService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:56:14.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Application\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Application\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:55:51.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VisitRequestDto.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\VisitRequestDto.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Application\\DTOs\\VisitRequestDto.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\VisitRequestDto.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Application\\DTOs\\VisitRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:48:25.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Application\\DTOs\\EmployeeDto.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\EmployeeDto.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Application\\DTOs\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:48:11.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthResultDto.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\Auth\\AuthResultDto.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Application\\DTOs\\Auth\\AuthResultDto.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\Auth\\AuthResultDto.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Application\\DTOs\\Auth\\AuthResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:47:57.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Application\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Application\\DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:47:47.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:47:35.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VisitorManagementSystem.Application",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj",
+              "RelativeToolTip": "VisitorManagementSystem.Application\\VisitorManagementSystem.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-02T09:41:44.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "VisitStatus.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Enums\\VisitStatus.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Domain\\Enums\\VisitStatus.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Enums\\VisitStatus.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Domain\\Enums\\VisitStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:38:55.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Role.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Domain\\Enums\\Role.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Enums\\Role.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Domain\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:38:34.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Domain\\Entities\\Employee.cs",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "VisitorManagementSystem.Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:35:48.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "VisitorManagementSystem.Domain",
+              "DocumentMoniker": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj",
+              "RelativeDocumentMoniker": "VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj",
+              "ToolTip": "F:\\VisitorManagementSystem\\VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj",
+              "RelativeToolTip": "VisitorManagementSystem.Domain\\VisitorManagementSystem.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-02T09:23:57.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

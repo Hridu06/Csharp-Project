@@ -1,0 +1,11 @@
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\bin\Debug\net8.0\VisitorManagementSystem.Domain.deps.json
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\bin\Debug\net8.0\VisitorManagementSystem.Domain.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\bin\Debug\net8.0\VisitorManagementSystem.Domain.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\obj\Debug\net8.0\VisitorManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\obj\Debug\net8.0\VisitorManagementSystem.Domain.AssemblyInfoInputs.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\obj\Debug\net8.0\VisitorManagementSystem.Domain.AssemblyInfo.cs
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\obj\Debug\net8.0\VisitorManagementSystem.Domain.csproj.CoreCompileInputs.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\obj\Debug\net8.0\VisitorManagementSystem.Domain.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\obj\Debug\net8.0\refint\VisitorManagementSystem.Domain.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\obj\Debug\net8.0\VisitorManagementSystem.Domain.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.Domain\obj\Debug\net8.0\ref\VisitorManagementSystem.Domain.dll
