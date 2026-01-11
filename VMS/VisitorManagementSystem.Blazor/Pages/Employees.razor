@@ -1,0 +1,244 @@
+﻿@page "/employees"
+@using VisitorManagementSystem.Application.DTOs
+@using VisitorManagementSystem.Application.Interfaces
+@inject IEmployeeService EmployeeService
+@inject IVisitRequestService VisitRequestService
+@inject IJSRuntime JS
+@inject VisitorManagementSystem.Blazor.Services.NotificationService NotificationService
+
+<h3>Employees</h3>
+
+@if (!isAuthenticated)
+{
+    <p>You are not authorized. Please <a href="/login">login</a>.</p>
+}
+else if (employees == null || !employees.Any())
+{
+    <p>Loading employees...</p>
+}
+else
+{
+    @if (isAdmin)
+    {
+        <button class="btn btn-success mb-3" @onclick="AddEmployee">Add Employee</button>
+    }
+
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Department</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in employees)
+            {
+                <tr>
+                    <td>@emp.Id</td>
+                    <td>@emp.FullName</td>
+                    <td>@emp.Email</td>
+                    <td>@emp.Department</td>
+                    <td>
+                        <span class="badge @(emp.IsAvailable ? "bg-success" : "bg-danger")">
+                            @(emp.IsAvailable ? "Available" : "Busy")
+                        </span>
+                    </td>
+                    <td>
+                        @if (isVisitor)
+                        {
+                            <button class="btn btn-sm btn-primary" @onclick="() => RequestVisit(emp)">
+                                Request Visit
+                            </button>
+                        }
+                        else if (isAdmin)
+                        {
+                            <button class="btn btn-sm btn-warning me-2" @onclick="() => EditEmployee(emp)">
+                                Edit
+                            </button>
+                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteEmployee(emp.Id)">
+                                Delete
+                            </button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<EmployeeDto> employees = new();
+    private bool isAuthenticated = false;
+    private bool isVisitor = false;
+    private bool isAdmin = false;
+    private string visitorName = string.Empty;
+    private string userId = string.Empty;
+    private int? employeeId = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+            isAuthenticated = !string.IsNullOrEmpty(token);
+            if (!isAuthenticated) return;
+
+            var userRole = (await JS.InvokeAsync<string>("localStorage.getItem", "userRole") ?? "").Trim().ToLower();
+            isVisitor = userRole.Contains("visitor") || userRole.Contains("user");
+            isAdmin = userRole.Contains("admin");
+
+            visitorName = await JS.InvokeAsync<string>("localStorage.getItem", "userFullName") ?? "Anonymous";
+            userId = await JS.InvokeAsync<string>("localStorage.getItem", "userId") ?? "";
+
+            // ✅ Get employeeId from localStorage
+            var empIdString = await JS.InvokeAsync<string>("localStorage.getItem", "userEmployeeId");
+            if (int.TryParse(empIdString, out var empId))
+            {
+                employeeId = empId;
+
+                // ✅ Initialize SignalR notification hub
+                await NotificationService.InitializeAsync(employeeId.Value);
+
+                // ✅ Subscribe to visitor notifications
+                NotificationService.OnVisitorAdded += VisitorAddedHandler;
+            }
+
+            await LoadEmployees();
+        }
+        catch (Exception ex)
+        {
+            await JS.InvokeVoidAsync("alert", $"Error initializing page: {ex.Message}");
+        }
+    }
+
+    private async Task LoadEmployees()
+    {
+        try
+        {
+            var employeesDto = await EmployeeService.GetAllAsync();
+            employees = employeesDto ?? new List<EmployeeDto>();
+        }
+        catch (Exception ex)
+        {
+            await JS.InvokeVoidAsync("alert", $"Error loading employees: {ex.Message}");
+        }
+    }
+
+    private async Task AddEmployee()
+    {
+        var fullName = await JS.InvokeAsync<string>("prompt", "Enter full name of employee:");
+        if (string.IsNullOrWhiteSpace(fullName)) return;
+
+        var email = await JS.InvokeAsync<string>("prompt", "Enter email of employee:");
+        if (string.IsNullOrWhiteSpace(email)) return;
+
+        var department = await JS.InvokeAsync<string>("prompt", "Enter department of employee:");
+        if (string.IsNullOrWhiteSpace(department)) return;
+
+        var newEmployee = new EmployeeDto
+        {
+            FullName = fullName,
+            Email = email,
+            Department = department,
+            IsAvailable = true
+        };
+
+        var success = await EmployeeService.AddAsync(newEmployee);
+        if (success)
+        {
+            await JS.InvokeVoidAsync("alert", "Employee added successfully!");
+            await LoadEmployees();
+        }
+        else
+        {
+            await JS.InvokeVoidAsync("alert", "Failed to add employee.");
+        }
+    }
+
+    private async Task EditEmployee(EmployeeDto emp)
+    {
+        emp.FullName = await JS.InvokeAsync<string>("prompt", $"Edit name for {emp.FullName}", emp.FullName) ?? emp.FullName;
+        emp.Department = await JS.InvokeAsync<string>("prompt", $"Edit department for {emp.FullName}", emp.Department) ?? emp.Department;
+        emp.Email = await JS.InvokeAsync<string>("prompt", $"Edit email for {emp.FullName}", emp.Email) ?? emp.Email;
+
+        var success = await EmployeeService.UpdateAsync(emp);
+        if (success)
+        {
+            await JS.InvokeVoidAsync("alert", "Employee updated successfully!");
+            await LoadEmployees();
+        }
+        else
+        {
+            await JS.InvokeVoidAsync("alert", "Failed to update employee.");
+        }
+    }
+
+    private async Task DeleteEmployee(int id)
+    {
+        var confirm = await JS.InvokeAsync<bool>("confirm", "Are you sure you want to delete this employee?");
+        if (!confirm) return;
+
+        var success = await EmployeeService.DeleteAsync(id);
+        if (success)
+        {
+            await JS.InvokeVoidAsync("alert", "Employee deleted successfully!");
+            await LoadEmployees();
+        }
+        else
+        {
+            await JS.InvokeVoidAsync("alert", "Failed to delete employee.");
+        }
+    }
+
+    private async Task RequestVisit(EmployeeDto emp)
+    {
+        if (string.IsNullOrEmpty(userId))
+        {
+            await JS.InvokeVoidAsync("alert", "Visitor ID not found. Please login again.");
+            return;
+        }
+
+        var request = new VisitRequestDto
+        {
+            VisitorId = userId,
+            VisitorName = visitorName,
+            EmployeeId = emp.Id,
+            EmployeeName = emp.FullName,
+            CreatedAt = DateTime.Now,
+            Status = "Pending"
+        };
+
+        try
+        {
+            var created = await VisitRequestService.CreateVisitRequestAsync(request);
+            if (created != null)
+            {
+                await JS.InvokeVoidAsync("alert", $"Visit request sent to {emp.FullName}!");
+            }
+            else
+            {
+                await JS.InvokeVoidAsync("alert", $"Failed to send visit request to {emp.FullName}.");
+            }
+        }
+        catch (Exception ex)
+        {
+            await JS.InvokeVoidAsync("alert", $"Error sending visit request: {ex.Message}");
+        }
+    }
+
+    private void VisitorAddedHandler(string visitorName)
+    {
+        // Optional: show popup, toast, or refresh employees list if needed
+        InvokeAsync(StateHasChanged);
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        // ✅ Unsubscribe to avoid memory leaks
+        NotificationService.OnVisitorAdded -= VisitorAddedHandler;
+    }
+}

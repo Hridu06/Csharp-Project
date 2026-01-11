@@ -1,0 +1,189 @@
+﻿@page "/admin"
+@inject HttpClient Http
+@inject IJSRuntime JS
+@inject NavigationManager Nav
+@using VisitorManagementSystem.Application.DTOs
+
+<h3>Admin Panel - Employee Management</h3>
+
+@if (!isAdmin)
+{
+    <p class="text-danger">❌ You are not authorized to view this page.</p>
+}
+else
+{
+    <button class="btn btn-primary mb-3" @onclick="ShowAddForm">Add Employee</button>
+
+    @if (showForm)
+    {
+        <div class="card p-3 mb-3">
+            <h5>@(editingEmployee != null ? "Edit Employee" : "Add Employee")</h5>
+            <div class="mb-2">
+                <label>Full Name:</label>
+                <input class="form-control" @bind="employeeModel.FullName" />
+            </div>
+            <div class="mb-2">
+                <label>Department:</label>
+                <input class="form-control" @bind="employeeModel.Department" />
+            </div>
+            <div class="mb-2">
+                <label>Email:</label>
+                <input class="form-control" @bind="employeeModel.Email" />
+            </div>
+            <div class="mb-2">
+                <label>Is Available:</label>
+                <input type="checkbox" class="form-check-input" @bind="employeeModel.IsAvailable" />
+            </div>
+            <button class="btn btn-success me-2" @onclick="SaveEmployee">Save</button>
+            <button class="btn btn-secondary" @onclick="CancelForm">Cancel</button>
+        </div>
+    }
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Department</th>
+                <th>Email</th>
+                <th>Is Available</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (employees != null)
+            {
+                @foreach (var emp in employees)
+                {
+                    <tr>
+                        <td>@emp.FullName</td>
+                        <td>@emp.Department</td>
+                        <td>@emp.Email</td>
+                        <td>@emp.IsAvailable</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning me-2" @onclick="() => EditEmployee(emp)">Edit</button>
+                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteEmployee(emp.Id)">Delete</button>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<EmployeeDto> employees = new();
+    private bool isAdmin = false;
+    private bool showForm = false;
+    private EmployeeDto employeeModel = new();
+    private EmployeeDto? editingEmployee = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CheckAdminRole();
+
+        if (isAdmin)
+        {
+            await LoadEmployees();
+        }
+    }
+
+    private async Task CheckAdminRole()
+    {
+        var role = await JS.InvokeAsync<string>("localStorage.getItem", "role");
+        isAdmin = role?.Equals("Admin", StringComparison.OrdinalIgnoreCase) == true;
+
+        if (!isAdmin)
+        {
+            // optional: redirect to login or home if not admin
+            // Nav.NavigateTo("/login");
+        }
+    }
+
+    private async Task LoadEmployees()
+    {
+        employees = await Http.GetFromJsonAsync<List<EmployeeDto>>("api/Employees") ?? new List<EmployeeDto>();
+    }
+
+    private void ShowAddForm()
+    {
+        showForm = true;
+        editingEmployee = null;
+        employeeModel = new EmployeeDto();
+    }
+
+    private void EditEmployee(EmployeeDto emp)
+    {
+        editingEmployee = emp;
+        employeeModel = new EmployeeDto
+        {
+            Id = emp.Id,
+            FullName = emp.FullName,
+            Department = emp.Department,
+            Email = emp.Email,
+            IsAvailable = emp.IsAvailable
+        };
+        showForm = true;
+    }
+
+    private void CancelForm()
+    {
+        showForm = false;
+        editingEmployee = null;
+        employeeModel = new EmployeeDto();
+    }
+
+    private async Task SaveEmployee()
+    {
+        if (editingEmployee == null)
+        {
+            // Add new employee
+            var response = await Http.PostAsJsonAsync("api/Employees", employeeModel);
+            if (response.IsSuccessStatusCode)
+            {
+                await LoadEmployees();
+                CancelForm();
+            }
+            else
+            {
+                var msg = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Add failed: {msg}");
+            }
+        }
+        else
+        {
+            // Update existing
+            var response = await Http.PutAsJsonAsync($"api/Employees/{employeeModel.Id}", employeeModel);
+            if (response.IsSuccessStatusCode)
+            {
+                await LoadEmployees();
+                CancelForm();
+            }
+            else
+            {
+                var msg = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Update failed: {msg}");
+            }
+        }
+    }
+
+    private async Task DeleteEmployee(int id)
+    {
+        if (!await JsConfirm($"Are you sure you want to delete employee ID {id}?")) return;
+
+        var response = await Http.DeleteAsync($"api/Employees/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadEmployees();
+        }
+        else
+        {
+            var msg = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"Delete failed: {msg}");
+        }
+    }
+
+    private async Task<bool> JsConfirm(string message)
+    {
+        return await JS.InvokeAsync<bool>("confirm", message);
+    }
+}

@@ -1,0 +1,648 @@
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\appsettings.Development.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\appsettings.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.staticwebassets.endpoints.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.exe
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.deps.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.runtimeconfig.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Core.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Identity.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Dapper.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Humanizer.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.CodeDom.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Memory.Data.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Application.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Domain.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Infrastructure.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Application.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Infrastructure.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Domain.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.csproj.AssemblyReference.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.AssemblyInfoInputs.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.AssemblyInfo.cs
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.csproj.CoreCompileInputs.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\scopedcss\bundle\VisitorManagementSystem.WebAPI.styles.css
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.development.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorM.031758B9.Up2Date
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\refint\VisitorManagementSystem.WebAPI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.genruntimeconfig.cache
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\ref\VisitorManagementSystem.WebAPI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\appsettings.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.staticwebassets.endpoints.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.exe
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.deps.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.runtimeconfig.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.pdb
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Dapper.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Humanizer.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Application.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Domain.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Infrastructure.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Application.pdb
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Infrastructure.pdb
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Domain.pdb
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.csproj.AssemblyReference.cache
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.AssemblyInfoInputs.cache
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.AssemblyInfo.cs
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.csproj.CoreCompileInputs.cache
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\scopedcss\bundle\VisitorManagementSystem.WebAPI.styles.css
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorM.031758B9.Up2Date
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\refint\VisitorManagementSystem.WebAPI.dll
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.pdb
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.genruntimeconfig.cache
+D:\Problem with employee\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\ref\VisitorManagementSystem.WebAPI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\appsettings.Development.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\appsettings.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.staticwebassets.endpoints.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.exe
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.deps.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.runtimeconfig.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Core.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Identity.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Dapper.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Humanizer.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.CodeDom.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Memory.Data.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Application.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Domain.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Infrastructure.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Application.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Infrastructure.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Domain.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.csproj.AssemblyReference.cache
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.AssemblyInfoInputs.cache
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.AssemblyInfo.cs
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.csproj.CoreCompileInputs.cache
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\scopedcss\bundle\VisitorManagementSystem.WebAPI.styles.css
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.development.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorM.031758B9.Up2Date
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\refint\VisitorManagementSystem.WebAPI.dll
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.pdb
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.genruntimeconfig.cache
+F:\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\ref\VisitorManagementSystem.WebAPI.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.staticwebassets.endpoints.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.exe
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.deps.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.runtimeconfig.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.WebAPI.pdb
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Dapper.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Humanizer.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Application.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Domain.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Infrastructure.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Application.pdb
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Infrastructure.pdb
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\bin\Debug\net8.0\VisitorManagementSystem.Domain.pdb
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.AssemblyInfo.cs
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\scopedcss\bundle\VisitorManagementSystem.WebAPI.styles.css
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorM.031758B9.Up2Date
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\refint\VisitorManagementSystem.WebAPI.dll
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.pdb
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\VisitorManagementSystem.WebAPI.genruntimeconfig.cache
+C:\Users\user\Downloads\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem\VisitorManagementSystem.WebAPI\obj\Debug\net8.0\ref\VisitorManagementSystem.WebAPI.dll

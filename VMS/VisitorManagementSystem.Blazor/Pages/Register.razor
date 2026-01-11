@@ -1,0 +1,66 @@
+﻿@page "/register"
+@inject VisitorManagementSystem.Blazor.Services.IAuthService AuthService
+@inject NavigationManager Nav
+
+<h3>Register</h3>
+
+<div class="card p-3 shadow-sm" style="max-width: 500px;">
+    <EditForm Model="registerModel" OnValidSubmit="HandleRegister">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label>Full Name</label>
+            <InputText class="form-control" @bind-Value="registerModel.FullName" />
+        </div>
+
+        <div class="mb-3">
+            <label>Email</label>
+            <InputText class="form-control" @bind-Value="registerModel.Email" />
+        </div>
+
+        <div class="mb-3">
+            <label>Password</label>
+            <InputText type="password" class="form-control" @bind-Value="registerModel.Password" />
+        </div>
+
+        <div class="mb-3">
+            <label>Role</label>
+            <InputSelect class="form-control" @bind-Value="registerModel.Role">
+                <option value="">-- Select Role --</option>
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+                <option value="Employee">Employee</option>
+            </InputSelect>
+        </div>
+
+        <button class="btn btn-primary w-100" type="submit">Register</button>
+    </EditForm>
+</div>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="alert alert-info mt-3">@message</div>
+}
+
+@code {
+    private VisitorManagementSystem.Blazor.Models.RegisterModel registerModel = new();
+    private string message = string.Empty;
+
+    private async Task HandleRegister()
+    {
+        var result = await AuthService.RegisterAsync(registerModel);
+
+        if (result.Success)
+        {
+            message = "Registration successful!";
+            // Redirect to login page after short delay
+            await Task.Delay(1000);
+            Nav.NavigateTo("/login");
+        }
+        else
+        {
+            message = !string.IsNullOrEmpty(result.Message) ? result.Message : "Registration failed.";
+        }
+    }
+}

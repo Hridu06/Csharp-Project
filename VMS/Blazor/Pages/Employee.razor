@@ -1,0 +1,133 @@
+﻿@page "/employee"
+@inject NavigationManager Nav
+@inject HttpClient Http
+@inject IJSRuntime JS
+@using VisitorManagementSystem.Application.DTOs
+@using Microsoft.AspNetCore.SignalR.Client
+@layout MainLayout
+
+<h3>Employee Dashboard</h3>
+
+<div class="d-flex justify-content-end mb-3">
+    <span class="position-relative">
+        <i class="bi bi-bell" style="font-size: 1.5rem;"></i>
+        @if (NotificationCount > 0)
+        {
+            <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">
+                @NotificationCount
+            </span>
+        }
+    </span>
+</div>
+
+@if (IsLoading)
+{
+    <p>Loading...</p>
+}
+else if (Employees == null || Employees.Count == 0)
+{
+    <p>No employees found.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Email</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Employees)
+            {
+                <tr>
+                    <td>@emp.FullName</td>
+                    <td>@emp.Department</td>
+                    <td>@emp.Email</td>
+                    <td>@(emp.IsAvailable ? "Available" : "Busy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<EmployeeDto>? Employees;
+    private HubConnection? hubConnection;
+    private int NotificationCount = 0;
+    private int? EmployeeId;
+    private bool IsLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Get token from local storage
+            var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+            if (string.IsNullOrEmpty(token))
+            {
+                Nav.NavigateTo("/login");
+                return;
+            }
+
+            Http.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            // Get employee ID from local storage
+            var empIdStr = await JS.InvokeAsync<string>("localStorage.getItem", "employeeId");
+            if (!int.TryParse(empIdStr, out int empIdValue))
+            {
+                NotificationCount = 0;
+                Employees = new List<EmployeeDto>();
+                IsLoading = false;
+                return;
+            }
+            EmployeeId = empIdValue;
+
+            // Load employee list
+            Employees = await Http.GetFromJsonAsync<List<EmployeeDto>>("api/Employees");
+
+            // Initialize SignalR connection
+            hubConnection = new HubConnectionBuilder()
+                .WithUrl("https://localhost:7005/visitorHub", options =>
+                {
+                    options.AccessTokenProvider = () => Task.FromResult(token);
+                })
+                .WithAutomaticReconnect()
+                .Build();
+
+            // Handle incoming notifications
+            hubConnection.On<string>("ReceiveVisitorNotification", (visitorName) =>
+            {
+                NotificationCount++;
+                StateHasChanged();
+            });
+
+            await hubConnection.StartAsync();
+
+            // Join employee-specific group for notifications
+            await hubConnection.InvokeAsync("JoinGroup", $"Employee_{EmployeeId.Value}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+        finally
+        {
+            IsLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    public bool IsConnected => hubConnection?.State == HubConnectionState.Connected;
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection != null)
+        {
+            await hubConnection.DisposeAsync();
+        }
+    }
+}

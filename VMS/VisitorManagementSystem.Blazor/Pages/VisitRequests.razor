@@ -1,0 +1,161 @@
+﻿@page "/visit-requests"
+@using VisitorManagementSystem.Blazor.Services
+@using VisitorManagementSystem.Application.DTOs
+@using VisitorManagementSystem.Application.Interfaces
+@inject IVisitRequestService VisitRequestService
+@inject IJSRuntime JS
+@inject NotificationService NotificationService
+
+<h3>Visitor Requests</h3>
+
+@if (!isAuthenticated)
+{
+    <p>Please <a href="/login">login</a> to see your visit requests.</p>
+}
+else
+{
+    @if (visitRequests.Count == 0)
+    {
+        <p>No pending visit requests.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Visitor</th>
+                    <th>Visit Date</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var req in visitRequests)
+                {
+                    <tr>
+                        <td>@req.VisitorName</td>
+                        <td>@req.CreatedAt.ToString("yyyy-MM-dd HH:mm")</td>
+                        <td>@req.Status</td>
+                        <td>
+                            @if (req.Status == "Pending")
+                            {
+                                <button class="btn btn-success btn-sm me-1" @onclick="() => Approve(req.Id)">Approve</button>
+                                <button class="btn btn-danger btn-sm" @onclick="() => Reject(req.Id)">Reject</button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+@if (isEmployee && notificationCount > 0)
+{
+    <div class="alert alert-info">
+        You have @notificationCount new visit request(s)!
+    </div>
+}
+
+@code {
+    private List<VisitRequestDto> visitRequests = new();
+    private bool isAuthenticated = false;
+    private int? employeeId;
+    private string visitorId = "";
+    private int notificationCount = 0;
+    private bool isEmployee = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+        isAuthenticated = !string.IsNullOrEmpty(token);
+        if (!isAuthenticated) return;
+
+        var empIdStr = await JS.InvokeAsync<string>("localStorage.getItem", "userEmployeeId");
+        if (int.TryParse(empIdStr, out var parsedEmpId))
+        {
+            employeeId = parsedEmpId;
+            isEmployee = true;
+        }
+
+        visitorId = await JS.InvokeAsync<string>("localStorage.getItem", "userId") ?? "";
+
+        if (isEmployee && employeeId.HasValue)
+        {
+            await LoadRequests();
+
+            // ✅ Initialize SignalR connection for real-time notifications
+            await NotificationService.InitializeAsync(employeeId.Value);
+
+            // Subscribe to visitor notifications
+            NotificationService.OnVisitorAdded += VisitorAddedHandler;
+        }
+    }
+
+    private async Task LoadRequests()
+    {
+        if (employeeId.HasValue)
+            visitRequests = await VisitRequestService.GetRequestsForEmployeeAsync(employeeId.Value);
+    }
+
+    private async Task Approve(int requestId)
+    {
+        var success = await VisitRequestService.ApproveRequest(requestId);
+        if (success)
+        {
+            await JS.InvokeVoidAsync("alert", "Request approved!");
+            await LoadRequests();
+        }
+    }
+
+    private async Task Reject(int requestId)
+    {
+        var success = await VisitRequestService.RejectRequest(requestId);
+        if (success)
+        {
+            await JS.InvokeVoidAsync("alert", "Request rejected!");
+            await LoadRequests();
+        }
+    }
+
+    public async Task RequestVisit(int employeeId, string employeeName)
+    {
+        if (string.IsNullOrEmpty(visitorId))
+        {
+            await JS.InvokeVoidAsync("alert", "Visitor ID not found. Please login again.");
+            return;
+        }
+
+        var visitorName = await JS.InvokeAsync<string>("localStorage.getItem", "userFullName") ?? "Anonymous";
+
+        var request = new VisitRequestDto
+        {
+            VisitorId = visitorId,
+            VisitorName = visitorName,
+            EmployeeId = employeeId,
+            EmployeeName = employeeName,
+            CreatedAt = DateTime.UtcNow,
+            Status = "Pending"
+        };
+
+        var created = await VisitRequestService.CreateVisitRequestAsync(request);
+        if (created != null)
+        {
+            await JS.InvokeVoidAsync("alert", $"Visit request sent to {employeeName}!");
+        }
+    }
+
+    private async void VisitorAddedHandler(string visitorName)
+    {
+        notificationCount++;
+        await LoadRequests();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        // Unsubscribe from SignalR events to prevent memory leaks
+        if (isEmployee)
+            NotificationService.OnVisitorAdded -= VisitorAddedHandler;
+    }
+}

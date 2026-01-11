@@ -1,0 +1,88 @@
+﻿@page "/login"
+@inject VisitorManagementSystem.Blazor.Services.IAuthService AuthService
+@inject NavigationManager Nav
+@inject IJSRuntime JS
+@using VisitorManagementSystem.Blazor.Models
+
+<h3>Login</h3>
+
+<div class="card p-3 shadow-sm" style="max-width: 400px;">
+    <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label>Email</label>
+            <InputText class="form-control" @bind-Value="loginModel.Email" />
+        </div>
+
+        <div class="mb-3">
+            <label>Password</label>
+            <InputText type="password" class="form-control" @bind-Value="loginModel.Password" />
+        </div>
+
+        <button class="btn btn-primary w-100" type="submit">Login</button>
+    </EditForm>
+</div>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="alert alert-danger mt-3">@message</div>
+}
+
+@code {
+    private LoginModel loginModel = new();
+    private string message = string.Empty;
+
+    private async Task HandleLogin()
+    {
+        var result = await AuthService.LoginAsync(loginModel);
+
+        if (result.Success)
+        {
+            message = "Login successful!";
+
+            // Normalize role
+            var normalizedRole = (result.Role ?? "").Trim().ToLower();
+
+            // ✅ Save authentication data
+            await JS.InvokeVoidAsync("localStorage.setItem", "authToken", result.Token ?? "");
+            await JS.InvokeVoidAsync("localStorage.setItem", "userEmail", result.Email ?? "");
+            await JS.InvokeVoidAsync("localStorage.setItem", "userFullName", result.FullName ?? "");
+            await JS.InvokeVoidAsync("localStorage.setItem", "userId", result.UserId ?? "");
+            await JS.InvokeVoidAsync("localStorage.setItem", "userRole", normalizedRole);
+
+            // ✅ Store EmployeeId only if role is Employee
+            if (normalizedRole == "employee" && result.EmployeeId.HasValue)
+            {
+                await JS.InvokeVoidAsync("localStorage.setItem", "userEmployeeId", result.EmployeeId.Value.ToString());
+            }
+            else
+            {
+                await JS.InvokeVoidAsync("localStorage.removeItem", "userEmployeeId");
+            }
+
+            // ✅ Redirect based on role
+            switch (normalizedRole)
+            {
+                case "admin":
+                    Nav.NavigateTo("/users", forceLoad: true);
+                    break;
+                case "employee":
+                    Nav.NavigateTo("/employees", forceLoad: true);
+                    break;
+                case "visitor":
+                case "user":
+                    Nav.NavigateTo("/visitors", forceLoad: true);
+                    break;
+                default:
+                    Nav.NavigateTo("/", forceLoad: true);
+                    break;
+            }
+        }
+        else
+        {
+            message = !string.IsNullOrEmpty(result.Message) ? result.Message : "Login failed.";
+        }
+    }
+}

@@ -1,0 +1,206 @@
+﻿@page "/visitors"
+@using VisitorManagementSystem.Blazor.Models
+@using VisitorManagementSystem.Application.DTOs
+@using VisitorManagementSystem.Application.Interfaces
+@inject IVisitorService VisitorService
+@inject IJSRuntime JS
+
+<h3>Visitor Management</h3>
+
+@if (!isAuthenticated)
+{
+    <p>You are not authorized. Please <a href="/login">login</a>.</p>
+}
+else
+{
+    <button class="btn btn-success mb-3" @onclick="ShowAddForm">Add New Visitor</button>
+
+    @if (showForm)
+    {
+        <EditForm Model="currentVisitor" OnValidSubmit="SaveVisitor">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="mb-2">
+                <label>Full Name</label>
+                <InputText class="form-control" @bind-Value="currentVisitor.FullName" />
+            </div>
+
+            <div class="mb-2">
+                <label>Email</label>
+                <InputText class="form-control" @bind-Value="currentVisitor.Email" />
+            </div>
+
+            <div class="mb-2">
+                <label>Phone</label>
+                <InputText class="form-control" @bind-Value="currentVisitor.Phone" />
+            </div>
+
+            <div class="mb-2">
+                <label>Address</label>
+                <InputText class="form-control" @bind-Value="currentVisitor.Address" />
+            </div>
+
+            <div class="mb-2">
+                <label>Purpose</label>
+                <InputText class="form-control" @bind-Value="currentVisitor.Purpose" />
+            </div>
+
+            <div class="mb-2">
+                <label>Visit Date</label>
+                <InputDate class="form-control" @bind-Value="currentVisitor.VisitDate" />
+            </div>
+
+            <button class="btn btn-primary" type="submit">@((currentVisitor.Id == 0) ? "Create" : "Update")</button>
+            <button class="btn btn-secondary ms-2" type="button" @onclick="CancelForm">Cancel</button>
+        </EditForm>
+    }
+
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Purpose</th>
+                <th>Visit Date</th>
+                @if (isAdmin)
+                {
+                    <th>Actions</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var visitor in visitors)
+            {
+                <tr>
+                    <td>@visitor.Id</td>
+                    <td>@visitor.FullName</td>
+                    <td>@visitor.Email</td>
+                    <td>@visitor.Phone</td>
+                    <td>@visitor.Address</td>
+                    <td>@visitor.Purpose</td>
+                    <td>@visitor.VisitDate.ToString("yyyy-MM-dd")</td>
+                    @if (isAdmin)
+                    {
+                        <td>
+                            <button class="btn btn-sm btn-warning me-1" @onclick="() => EditVisitor(visitor)">Edit</button>
+                            <button class="btn btn-sm btn-danger me-1" @onclick="() => DeleteVisitor(visitor.Id)">Delete</button>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<VisitorModel> visitors = new();
+    private VisitorModel currentVisitor = new();
+    private bool showForm = false;
+    private bool isAdmin = false;
+    private bool isAuthenticated = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+        var role = await JS.InvokeAsync<string>("localStorage.getItem", "userRole");
+
+        isAuthenticated = !string.IsNullOrEmpty(token);
+        role = role?.Trim().ToLower() ?? "";
+        isAdmin = role == "admin";
+
+        if (isAuthenticated)
+        {
+            await LoadVisitors();
+        }
+    }
+
+    private async Task LoadVisitors()
+    {
+        var visitorsDto = await VisitorService.GetAllVisitorsAsync();
+        visitors = visitorsDto.Select(v => new VisitorModel
+        {
+            Id = v.Id,
+            FullName = v.FullName,
+            Email = v.Email,
+            Phone = v.Phone,
+            Address = v.Address,
+            Purpose = v.Purpose,
+            VisitDate = v.VisitDate
+        }).ToList();
+    }
+
+    private void ShowAddForm()
+    {
+        currentVisitor = new VisitorModel();
+        showForm = true;
+    }
+
+    private void EditVisitor(VisitorModel visitor)
+    {
+        currentVisitor = visitor;
+        showForm = true;
+    }
+
+    private void CancelForm()
+    {
+        currentVisitor = new VisitorModel();
+        showForm = false;
+    }
+
+    private async Task SaveVisitor()
+    {
+        var dto = new VisitorDTO
+        {
+            Id = currentVisitor.Id,
+            FullName = currentVisitor.FullName,
+            Email = currentVisitor.Email,
+            Phone = currentVisitor.Phone,
+            Address = currentVisitor.Address,
+            Purpose = currentVisitor.Purpose,
+            VisitDate = currentVisitor.VisitDate
+        };
+
+        if (currentVisitor.Id == 0)
+        {
+            var addedDto = await VisitorService.AddVisitorAsync(dto);
+            if (addedDto != null)
+            {
+                visitors.Add(new VisitorModel
+                {
+                    Id = addedDto.Id,
+                    FullName = addedDto.FullName,
+                    Email = addedDto.Email,
+                    Phone = addedDto.Phone,
+                    Address = addedDto.Address,
+                    Purpose = addedDto.Purpose,
+                    VisitDate = addedDto.VisitDate
+                });
+            }
+        }
+        else if (isAdmin)
+        {
+            var updated = await VisitorService.UpdateVisitorAsync(dto);
+            if (updated)
+            {
+                var index = visitors.FindIndex(v => v.Id == currentVisitor.Id);
+                if (index >= 0)
+                    visitors[index] = currentVisitor;
+            }
+        }
+
+        CancelForm();
+    }
+
+    private async Task DeleteVisitor(int id)
+    {
+        if (!isAdmin) return;
+
+        var deleted = await VisitorService.DeleteVisitorAsync(id);
+        if (deleted)
+            visitors.RemoveAll(v => v.Id == id);
+    }
+}

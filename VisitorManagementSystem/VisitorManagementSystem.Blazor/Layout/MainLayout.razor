@@ -1,0 +1,153 @@
+﻿@inherits LayoutComponentBase
+@inject VisitorManagementSystem.Blazor.Services.NotificationService NotificationService
+@inject IJSRuntime JS
+@inject NavigationManager NavManager
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main style="position: relative;">
+        <!-- Top bar -->
+        <div class="top-row px-4 d-flex justify-content-between align-items-center bg-light border-bottom shadow-sm" style="position: sticky; top: 0; z-index: 100;">
+            <div class="d-flex align-items-center">
+                <NavLink class="fw-bold text-primary me-3" href="/" Match="NavLinkMatch.All">🏠 VisitorMS</NavLink>
+
+                @if (isAuthenticated)
+                {
+                    @if (isVisitor)
+                    {
+                        <NavLink class="nav-link d-inline me-3" href="/visitors">👥 Visitors</NavLink>
+                    }
+
+                    @if (isEmployee)
+                    {
+                        <NavLink class="nav-link d-inline me-3" href="/employees">👤 Employees</NavLink>
+                    }
+
+                    @if (isAdmin || isEmployee)
+                    {
+                        <NavLink class="nav-link d-inline me-3" href="/reports">📊 Reports</NavLink>
+                    }
+                }
+            </div>
+
+            <div class="d-flex align-items-center">
+                <!-- 🔔 Notification Bell for Employee only -->
+                @if (isEmployee)
+                {
+                    <div style="position: relative; cursor: pointer;" @onclick="ToggleNotifications" class="me-3">
+                        <span class="fs-4">🔔</span>
+                        @if (notificationCount > 0)
+                        {
+                            <span class="badge bg-danger" style="position: absolute; top: -5px; right: -10px;">
+                                @notificationCount
+                            </span>
+                        }
+
+                        @if (showPopup)
+                        {
+                            <div class="notification-popup shadow-sm bg-white rounded p-2" style="position: absolute; right: 0; top: 30px; width: 280px; max-height: 300px; overflow-y: auto; z-index: 200;">
+                                <h6 class="border-bottom pb-1 mb-2">Notifications</h6>
+                                @if (!notifications.Any())
+                                {
+                                    <p class="text-muted small">No new notifications</p>
+                                }
+                                else
+                                {
+                                    <ul class="list-unstyled small mb-0">
+                                        @foreach (var note in notifications)
+                                        {
+                                            <li class="border-bottom py-1">@note</li>
+                                        }
+                                    </ul>
+                                }
+                            </div>
+                        }
+                    </div>
+                }
+
+                <!-- 👤 Auth Links -->
+                @if (isAuthenticated)
+                {
+                    <span class="me-3 text-dark small">@userEmail (@userRole)</span>
+                    <button class="btn btn-outline-danger btn-sm" @onclick="Logout">Logout</button>
+                }
+                else
+                {
+                    <NavLink class="btn btn-outline-primary btn-sm me-2" href="/login">Login</NavLink>
+                    <NavLink class="btn btn-outline-success btn-sm" href="/register">Register</NavLink>
+                }
+            </div>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    private int notificationCount = 0;
+    private bool showPopup = false;
+    private List<string> notifications = new();
+
+    private bool isAuthenticated = false;
+    private bool isAdmin = false;
+    private bool isVisitor = false;
+    private bool isEmployee = false;
+    private string userRole = "";
+    private string userEmail = "";
+    private int? employeeId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Load auth info from localStorage
+        userRole = (await JS.InvokeAsync<string>("localStorage.getItem", "userRole"))?.Trim().ToLower() ?? "";
+        userEmail = await JS.InvokeAsync<string>("localStorage.getItem", "userEmail") ?? "";
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+        var empIdStr = await JS.InvokeAsync<string>("localStorage.getItem", "userEmployeeId");
+
+        if (int.TryParse(empIdStr, out var parsedId))
+            employeeId = parsedId;
+
+        isAuthenticated = !string.IsNullOrEmpty(token);
+        isAdmin = userRole.Contains("admin");
+        isVisitor = userRole.Contains("visitor") || userRole.Contains("user");
+        isEmployee = userRole.Contains("employee");
+
+        // ✅ Connect SignalR for employees
+        if (isEmployee && employeeId.HasValue)
+        {
+            await NotificationService.InitializeAsync(employeeId.Value);
+            NotificationService.OnVisitorAdded += VisitorAddedHandler;
+        }
+    }
+
+    private void VisitorAddedHandler(string visitorName)
+    {
+        notifications.Insert(0, $"👤 Visitor '{visitorName}' wants to visit you!");
+        notificationCount++;
+        InvokeAsync(StateHasChanged);
+    }
+
+    private void ToggleNotifications()
+    {
+        showPopup = !showPopup;
+
+        // Reset counter when popup opens
+        if (showPopup)
+            notificationCount = 0;
+    }
+
+    private async Task Logout()
+    {
+        if (isEmployee)
+            NotificationService.OnVisitorAdded -= VisitorAddedHandler;
+
+        await JS.InvokeVoidAsync("localStorage.clear");
+        isAuthenticated = false;
+        NavManager.NavigateTo("/login", forceLoad: true);
+    }
+}

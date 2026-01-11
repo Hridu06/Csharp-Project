@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "VisitorManagementSystem.WebAPI\\VisitorManagementSystem.WebAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Blazor\\Blazor.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+﻿@page "/"
+@inject IJSRuntime JS
+@inject NavigationManager Nav
+@inject HttpClient Http
+
+<h3 class="text-center mt-4 fw-bold">🏢 Visitor Management Dashboard</h3>
+
+@if (!isLoggedIn)
+{
+    <div class="text-center mt-5">
+        <p class="lead">Welcome to the Visitor Management System</p>
+        <button class="btn btn-primary mx-2" @onclick="@(() => Nav.NavigateTo("/login"))">Login</button>
+        <button class="btn btn-outline-secondary mx-2" @onclick="@(() => Nav.NavigateTo("/register"))">Register</button>
+    </div>
+}
+else
+{
+    <div class="dashboard-container">
+
+        <!-- 🔹 Top Navigation Bar -->
+        <div class="topbar d-flex justify-content-between align-items-center p-3 shadow-sm bg-light rounded mb-4">
+            <div class="fw-bold text-primary fs-5">Visitor Management System</div>
+            <div class="d-flex align-items-center">
+                <span class="me-3">👤 @userEmail (@userRole)</span>
+                <button class="btn btn-danger btn-sm" @onclick="Logout">Logout</button>
+            </div>
+        </div>
+
+        <!-- 🔹 Search Section -->
+        <div class="search-bar mb-4 d-flex justify-content-center">
+            <input class="form-control w-50 me-2" placeholder="Search visitor by name or email..." @bind="searchTerm" />
+            <button class="btn btn-primary" @onclick="SearchVisitor">Search</button>
+        </div>
+
+        <!-- 🔹 Dashboard Summary Cards -->
+        <div class="row text-center">
+            <div class="col-md-3 mb-3">
+                <div class="card shadow-sm border-0 p-3 bg-primary text-white rounded-3">
+                    <h5>Total Visitors</h5>
+                    <h2>@totalVisitors</h2>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card shadow-sm border-0 p-3 bg-success text-white rounded-3">
+                    <h5>Today's Visits</h5>
+                    <h2>@todayVisits</h2>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card shadow-sm border-0 p-3 bg-info text-white rounded-3">
+                    <h5>Registered Users</h5>
+                    <h2>@userCount</h2>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card shadow-sm border-0 p-3 bg-warning text-white rounded-3">
+                    <h5>Pending Approvals</h5>
+                    <h2>@pendingVisitors</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔹 Quick Actions -->
+        <div class="text-center mt-5">
+            <h5 class="fw-bold mb-3">Quick Actions</h5>
+            <button class="btn btn-outline-primary mx-2" @onclick="@(() => Nav.NavigateTo("/add-visitors"))">➕ Add Visitor</button>
+            <button class="btn btn-outline-success mx-2" @onclick="@(() => Nav.NavigateTo("/visitors"))">👥 View Visitors</button>
+
+            @if (userRole?.ToLower() == "admin")
+            {
+                <button class="btn btn-outline-dark mx-2" @onclick="@(() => Nav.NavigateTo("/users"))">⚙️ Manage Users</button>
+                <button class="btn btn-outline-warning mx-2" @onclick="@(() => Nav.NavigateTo("/reports"))">📊 View Reports</button>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    private bool isLoggedIn = false;
+    private string? userEmail;
+    private string? userRole;
+    private string searchTerm = string.Empty;
+
+    private int totalVisitors = 0;
+    private int todayVisits = 0;
+    private int userCount = 0;
+    private int pendingVisitors = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+        userEmail = await JS.InvokeAsync<string>("localStorage.getItem", "userEmail");
+        userRole = await JS.InvokeAsync<string>("localStorage.getItem", "userRole");
+        isLoggedIn = !string.IsNullOrEmpty(token);
+
+        if (isLoggedIn)
+        {
+            await LoadDashboardData();
+        }
+    }
+
+    private async Task LoadDashboardData()
+    {
+        // Replace with API calls for real project
+        totalVisitors = 145;
+        todayVisits = 23;
+        userCount = 8;
+        pendingVisitors = 5;
+    }
+
+    private async Task Logout()
+    {
+        await JS.InvokeVoidAsync("localStorage.clear");
+        isLoggedIn = false;
+        Nav.NavigateTo("/", forceLoad: true);
+    }
+
+    private void SearchVisitor()
+    {
+        if (!string.IsNullOrWhiteSpace(searchTerm))
+        {
+            Nav.NavigateTo($"/visitors?search={searchTerm}");
+        }
+    }
+}

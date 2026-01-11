@@ -1,0 +1,146 @@
+﻿@page "/visitor"
+@inject HttpClient Http
+@inject IJSRuntime JS
+@using VisitorManagementSystem.Application.DTOs
+@using Microsoft.AspNetCore.SignalR.Client
+
+<h3>Employee List</h3>
+
+@if (Employees == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Email</th>
+                <th>Availability</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Employees)
+            {
+                <tr>
+                    <td>@emp.FullName</td>
+                    <td>@emp.Department</td>
+                    <td>@emp.Email</td>
+                    <td>@(emp.IsAvailable ? "Available" : "Unavailable")</td>
+                    <td>
+                        @if (emp.IsAvailable)
+                        {
+                            <button class="btn btn-primary" @onclick="() => VisitEmployee(emp.Id, emp.FullName)">Visit</button>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Busy</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (!string.IsNullOrEmpty(Message))
+{
+    <div class="alert alert-info">@Message</div>
+}
+
+@code {
+    private List<EmployeeDto>? Employees;
+    private string Message = "";
+    private string VisitorId = "";
+    private string VisitorName = "";
+    private HubConnection? hubConnection;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Get token and visitor info from local storage
+            var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+            VisitorId = await JS.InvokeAsync<string>("localStorage.getItem", "userId");
+            VisitorName = await JS.InvokeAsync<string>("localStorage.getItem", "fullName");
+
+            if (string.IsNullOrEmpty(token) || string.IsNullOrEmpty(VisitorId))
+            {
+                Message = "You are not logged in.";
+                return;
+            }
+
+            Http.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            // Load employee list
+            Employees = await Http.GetFromJsonAsync<List<EmployeeDto>>("api/Employees");
+
+            // Use MainLayout's SignalR (optional: create separate connection if needed)
+            hubConnection = new HubConnectionBuilder()
+                .WithUrl("https://localhost:7005/visitorHub", options =>
+                {
+                    options.AccessTokenProvider = () => Task.FromResult(token);
+                })
+                .WithAutomaticReconnect()
+                .Build();
+
+            await hubConnection.StartAsync();
+        }
+        catch (Exception ex)
+        {
+            Message = $"Error: {ex.Message}";
+        }
+    }
+
+    private async Task VisitEmployee(int employeeId, string employeeName)
+    {
+        try
+        {
+            if (string.IsNullOrEmpty(VisitorId))
+            {
+                Message = "Visitor ID is missing.";
+                return;
+            }
+
+            // Create request with fields required by backend
+            var request = new
+            {
+                VisitorId = VisitorId,
+                EmployeeId = employeeId,
+                Status = "Pending"
+            };
+
+            var response = await Http.PostAsJsonAsync("api/VisitRequests", request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                Message = $"Visit request sent to {employeeName}.";
+
+                // Notify the employee via SignalR (MainLayout will update bell automatically)
+                if (hubConnection != null)
+                {
+                    await hubConnection.InvokeAsync("NotifyEmployee", $"Employee_{employeeId}", VisitorName);
+                }
+            }
+            else
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                Message = $"Failed to send visit request. ({error})";
+            }
+        }
+        catch (Exception ex)
+        {
+            Message = $"Failed to send visit request. ({ex.Message})";
+        }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection != null)
+            await hubConnection.DisposeAsync();
+    }
+}

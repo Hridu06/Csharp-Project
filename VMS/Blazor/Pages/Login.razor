@@ -1,0 +1,79 @@
+﻿@page "/login"
+@inject NavigationManager Nav
+@inject AuthService AuthService
+@inject IJSRuntime JS
+
+@using VisitorManagementSystem.Application.DTOs
+@using VisitorManagementSystem.Blazor.Models
+@using VisitorManagementSystem.Blazor.Services
+
+<h3>Login</h3>
+
+<div class="form-group mb-2">
+    <label>Email</label>
+    <input @bind="LoginModel.Email" type="email" class="form-control" />
+</div>
+<div class="form-group mb-2">
+    <label>Password</label>
+    <input @bind="LoginModel.Password" type="password" class="form-control" />
+</div>
+
+<button class="btn btn-primary" @onclick="LoginUser">Login</button>
+
+@if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <div class="text-danger mt-2">@ErrorMessage</div>
+}
+
+@code {
+    private LoginModel LoginModel = new();
+    private string ErrorMessage = "";
+
+    private async Task LoginUser()
+    {
+        ErrorMessage = "";
+
+        if (string.IsNullOrEmpty(LoginModel.Email) || string.IsNullOrEmpty(LoginModel.Password))
+        {
+            ErrorMessage = "Please fill all fields.";
+            return;
+        }
+
+        try
+        {
+            // Call AuthService to login
+            AuthResponseDTO response = await AuthService.LoginAsync(new LoginDTO
+            {
+                Email = LoginModel.Email,
+                Password = LoginModel.Password
+            });
+
+            if (!response.Success)
+            {
+                ErrorMessage = response.Message ?? "Login failed.";
+                return;
+            }
+
+            // Trigger MainLayout to update login state
+            await JS.InvokeVoidAsync("window.localStorageHelper.notifyLoginChange");
+
+            // Navigate based on role
+            switch (response.Role)
+            {
+                case "Admin":
+                    Nav.NavigateTo("/admin");
+                    break;
+                case "Employee":
+                    Nav.NavigateTo("/employee");
+                    break;
+                default: // Visitor/User
+                    Nav.NavigateTo("/visitor");
+                    break;
+            }
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"Login failed: {ex.Message}";
+        }
+    }
+}

@@ -1,0 +1,321 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager Nav
+@inject IJSRuntime JS
+@using Microsoft.AspNetCore.SignalR.Client
+
+<div class="topbar">
+    <div class="logo">Visitor Management</div>
+
+    <div class="header-left">
+        @if (IsLoggedIn)
+        {
+            <!-- Always show Home -->
+            <button class="btn btn-light" @onclick="GoHome">Home</button>
+
+            <!-- Visitor/User: show Visit Employee button -->
+            @if (UserRole.Equals("Visitor", StringComparison.OrdinalIgnoreCase))
+            {
+                <button class="btn btn-success" @onclick="GoVisitor">Visit Employee</button>
+            }
+            <!-- Employee: show Employee page link -->
+            else if (UserRole.Equals("Employee", StringComparison.OrdinalIgnoreCase))
+            {
+                <button class="btn btn-light" @onclick="GoEmployee">Employee</button>
+            }
+            <!-- Admin: show Admin page link -->
+            else if (UserRole.Equals("Admin", StringComparison.OrdinalIgnoreCase))
+            {
+                <button class="btn btn-warning" @onclick="GoAdmin">Admin Panel</button>
+            }
+        }
+    </div>
+
+    <div class="header-right">
+        @if (!IsLoggedIn)
+        {
+            <button class="btn btn-light" @onclick="GoLogin">Login</button>
+            <button class="btn btn-light" @onclick="GoRegister">Register</button>
+        }
+        else
+        {
+            @if (UserRole.Equals("Employee", StringComparison.OrdinalIgnoreCase))
+            {
+                <button class="notification-bell" @onclick="ToggleNotifications">
+                    🔔
+                    @if (UnreadCount > 0)
+                    {
+                        <span class="badge">@UnreadCount</span>
+                    }
+                </button>
+            }
+            <button class="btn btn-light" @onclick="Logout">Logout</button>
+        }
+    </div>
+</div>
+
+<div class="main-body">
+    @Body
+</div>
+
+@if (ShowNotifications && UserRole.Equals("Employee", StringComparison.OrdinalIgnoreCase))
+{
+    <div class="notifications-dropdown">
+        @if (Notifications.Count == 0)
+        {
+            <p>No notifications</p>
+        }
+        else
+        {
+            <ul>
+                @foreach (var n in Notifications)
+                {
+                    <li>@n.Message (@n.CreatedAt.ToLocalTime())</li>
+                }
+            </ul>
+        }
+    </div>
+}
+
+<style>
+    /* Same styles as before */
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0078d7;
+        color: white;
+        padding: 10px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .header-left,
+    .header-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+    }
+
+    .btn {
+        border: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .btn-light {
+        background: white;
+        color: #0078d7;
+    }
+
+        .btn-light:hover {
+            background: #e8e8e8;
+        }
+
+    .btn-success {
+        background: #28a745;
+        color: white;
+    }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+    .btn-warning {
+        background: #ffc107;
+        color: black;
+    }
+
+        .btn-warning:hover {
+            background: #e0a800;
+        }
+
+    .notification-bell {
+        position: relative;
+        font-size: 20px;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+        .notification-bell .badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background-color: red;
+            border-radius: 50%;
+            color: white;
+            padding: 2px 6px;
+            font-size: 12px;
+        }
+
+    .notifications-dropdown {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background: white;
+        color: black;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        width: 260px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        padding: 10px;
+        z-index: 1000;
+    }
+
+        .notifications-dropdown ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .notifications-dropdown li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+        }
+
+            .notifications-dropdown li:last-child {
+                border-bottom: none;
+            }
+
+    .main-body {
+        padding: 20px;
+    }
+</style>
+
+@code {
+    private bool IsLoggedIn = false;
+    private string UserRole = "";
+    private bool ShowNotifications = false;
+    private List<NotificationDto> Notifications = new();
+    private int UnreadCount => Notifications.Count(n => !n.IsRead);
+    private HubConnection? hubConnection;
+    private int? EmployeeId;
+
+    // Navigation helpers
+    void GoHome() => Nav.NavigateTo("/");
+    void GoVisitor() => Nav.NavigateTo("/visitor");
+    void GoEmployee() => Nav.NavigateTo("/employee");
+    void GoAdmin() => Nav.NavigateTo("/admin"); // Admin navigation
+    void GoLogin() => Nav.NavigateTo("/login");
+    void GoRegister() => Nav.NavigateTo("/register");
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("setMainLayoutInstance", DotNetObjectReference.Create(this));
+            await UpdateLoginState();
+        }
+    }
+
+    [JSInvokable]
+    public async Task NotifyLoginChange()
+    {
+        await UpdateLoginState();
+        StateHasChanged();
+    }
+
+    private async Task UpdateLoginState()
+    {
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+        var role = await JS.InvokeAsync<string>("localStorage.getItem", "role");
+
+        if (!string.IsNullOrEmpty(token))
+        {
+            IsLoggedIn = true;
+            UserRole = role ?? "";
+
+            if (UserRole.Equals("Employee", StringComparison.OrdinalIgnoreCase))
+            {
+                var empIdStr = await JS.InvokeAsync<string>("localStorage.getItem", "employeeId");
+                if (int.TryParse(empIdStr, out int empIdValue))
+                    EmployeeId = empIdValue;
+
+                await InitSignalR(token);
+                await LoadNotifications();
+            }
+        }
+        else
+        {
+            IsLoggedIn = false;
+            UserRole = "";
+            Notifications.Clear();
+        }
+
+        StateHasChanged();
+    }
+
+    private async Task InitSignalR(string token)
+    {
+        if (hubConnection != null && hubConnection.State == HubConnectionState.Connected)
+            return;
+
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl("https://localhost:7005/visitorHub", options =>
+            {
+                options.AccessTokenProvider = () => Task.FromResult(token);
+            })
+            .WithAutomaticReconnect()
+            .Build();
+
+        hubConnection.On<string>("ReceiveVisitorNotification", (visitorName) =>
+        {
+            Notifications.Insert(0, new NotificationDto
+            {
+                Message = $"{visitorName} requested a visit",
+                IsRead = false,
+                CreatedAt = DateTime.UtcNow
+            });
+
+            StateHasChanged();
+        });
+
+        await hubConnection.StartAsync();
+
+        if (EmployeeId.HasValue)
+        {
+            await hubConnection.InvokeAsync("JoinGroup", $"Employee_{EmployeeId.Value}");
+        }
+    }
+
+    private async Task LoadNotifications()
+    {
+        Notifications = new List<NotificationDto>();
+        await Task.CompletedTask;
+    }
+
+    void ToggleNotifications()
+    {
+        ShowNotifications = !ShowNotifications;
+        if (ShowNotifications)
+        {
+            foreach (var n in Notifications)
+                n.IsRead = true;
+        }
+    }
+
+    async void Logout()
+    {
+        await JS.InvokeVoidAsync("localStorage.clear");
+        await JS.InvokeVoidAsync("window.localStorageHelper.notifyLoginChange");
+        IsLoggedIn = false;
+        UserRole = "";
+        if (hubConnection != null)
+            await hubConnection.DisposeAsync();
+        Nav.NavigateTo("/login");
+        StateHasChanged();
+    }
+
+    public class NotificationDto
+    {
+        public string Message { get; set; } = "";
+        public bool IsRead { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+}

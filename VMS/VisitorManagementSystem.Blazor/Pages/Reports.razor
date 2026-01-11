@@ -1,0 +1,182 @@
+﻿@page "/reports"
+@inject IJSRuntime JS
+@inject NavigationManager Nav
+@inject HttpClient Http
+
+<h3 class="text-center mt-4 fw-bold text-primary">📊 Reports & Analytics</h3>
+
+@if (!isLoggedIn)
+{
+    <div class="text-center mt-5">
+        <p class="lead">You must log in to view reports.</p>
+        <button class="btn btn-primary mx-2" @onclick="@(() => Nav.NavigateTo("/login"))">🔐 Login</button>
+    </div>
+}
+else if (userRole != "Admin")
+{
+    <div class="alert alert-warning text-center mt-5">
+        <strong>⚠️ Access Denied!</strong> Only administrators can view this page.
+    </div>
+}
+else
+{
+    <div class="container mt-4">
+
+        <!-- 🔹 Date Range Filter -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <label class="form-label fw-bold me-2">Select Date Range:</label>
+                <input type="date" @bind="startDate" class="form-control d-inline-block" style="width: 180px;" />
+                <span class="mx-2">to</span>
+                <input type="date" @bind="endDate" class="form-control d-inline-block" style="width: 180px;" />
+                <button class="btn btn-outline-primary ms-3" @onclick="LoadReportData">📅 Filter</button>
+            </div>
+            <button class="btn btn-outline-success" @onclick="ExportReport">⬇️ Export Report</button>
+        </div>
+
+        <!-- 🔹 Summary Cards -->
+        <div class="row text-center mb-4">
+            <div class="col-md-3 mb-3">
+                <div class="card shadow-sm border-0 p-3 bg-primary text-white rounded-3">
+                    <h6>Total Visitors</h6>
+                    <h3>@totalVisitors</h3>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card shadow-sm border-0 p-3 bg-success text-white rounded-3">
+                    <h6>Approved Visits</h6>
+                    <h3>@approvedVisits</h3>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card shadow-sm border-0 p-3 bg-warning text-white rounded-3">
+                    <h6>Pending Approvals</h6>
+                    <h3>@pendingVisits</h3>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card shadow-sm border-0 p-3 bg-danger text-white rounded-3">
+                    <h6>Cancelled Visits</h6>
+                    <h3>@cancelledVisits</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔹 Charts Section -->
+        <div class="bg-white shadow-sm rounded p-4">
+            <h5 class="fw-bold mb-3">Visitor Trends (Last 7 Days)</h5>
+
+            <LineChart Width="800" Height="300" Data="@chartData">
+                <Line DataKey="Visitors" Stroke="#007bff" StrokeWidth="3" />
+                <CartesianGrid StrokeDasharray="3 3" />
+                <XAxis DataKey="Date" />
+                <YAxis />
+                <Tooltip />
+            </LineChart>
+        </div>
+
+        <!-- 🔹 Recent Activities Table -->
+        <div class="bg-white shadow-sm rounded p-4 mt-4">
+            <h5 class="fw-bold mb-3">Recent Visitor Logs</h5>
+            <table class="table table-striped">
+                <thead class="table-light">
+                    <tr>
+                        <th>Date</th>
+                        <th>Visitor Name</th>
+                        <th>Status</th>
+                        <th>Checked In</th>
+                        <th>Checked Out</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var log in visitorLogs)
+                    {
+                        <tr>
+                            <td>@log.Date.ToShortDateString()</td>
+                            <td>@log.Name</td>
+                            <td>@log.Status</td>
+                            <td>@log.CheckIn</td>
+                            <td>@log.CheckOut</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+
+@code {
+    private bool isLoggedIn = false;
+    private string? userRole;
+    private string? userEmail;
+    private DateTime startDate = DateTime.Today.AddDays(-7);
+    private DateTime endDate = DateTime.Today;
+
+    private int totalVisitors;
+    private int approvedVisits;
+    private int pendingVisits;
+    private int cancelledVisits;
+
+    private List<VisitorLog> visitorLogs = new();
+    private List<ChartData> chartData = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+        userEmail = await JS.InvokeAsync<string>("localStorage.getItem", "userEmail");
+        userRole = await JS.InvokeAsync<string>("localStorage.getItem", "userRole");
+        isLoggedIn = !string.IsNullOrEmpty(token);
+
+        if (isLoggedIn && userRole == "Admin")
+        {
+            await LoadReportData();
+        }
+    }
+
+    private async Task LoadReportData()
+    {
+        // Simulate realistic analytics data
+        totalVisitors = 256;
+        approvedVisits = 210;
+        pendingVisits = 30;
+        cancelledVisits = 16;
+
+        chartData = Enumerable.Range(0, 7)
+            .Select(i => new ChartData
+            {
+                Date = DateTime.Today.AddDays(-i).ToString("MM/dd"),
+                Visitors = new Random().Next(10, 60)
+            })
+            .Reverse()
+            .ToList();
+
+        visitorLogs = new()
+        {
+            new VisitorLog{ Date = DateTime.Today, Name="John Doe", Status="Approved", CheckIn="10:00 AM", CheckOut="11:00 AM"},
+            new VisitorLog{ Date = DateTime.Today.AddDays(-1), Name="Jane Smith", Status="Pending", CheckIn="--", CheckOut="--"},
+            new VisitorLog{ Date = DateTime.Today.AddDays(-2), Name="Ali Khan", Status="Cancelled", CheckIn="--", CheckOut="--"},
+            new VisitorLog{ Date = DateTime.Today.AddDays(-3), Name="Sophia Roy", Status="Approved", CheckIn="9:30 AM", CheckOut="10:15 AM"}
+        };
+    }
+
+    private void ExportReport()
+    {
+        // Later you can implement export to Excel/PDF
+        Console.WriteLine("Report exported!");
+    }
+
+    public class ChartData
+    {
+        public string Date { get; set; } = "";
+        public int Visitors { get; set; }
+    }
+
+    public class VisitorLog
+    {
+        public DateTime Date { get; set; }
+        public string Name { get; set; } = "";
+        public string Status { get; set; } = "";
+        public string CheckIn { get; set; } = "";
+        public string CheckOut { get; set; } = "";
+    }
+}
